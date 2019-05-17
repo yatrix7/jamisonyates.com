@@ -1,0 +1,41 @@
+:root {
+	--section-padding: 20px;
+	--section-margin-bottom: 10px;
+}
+html,
+body {
+	height: 100%;
+}
+
+body {
+	background: #f2edd7;
+	font-family: 'Fira Code', sans-serif;
+	padding: 0 24px 24px;
+}
+
+.container {
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	max-width: 800px;
+}
+
+.header {
+	background: #de4d44;
+	border-radius: 12px;
+	color: #fff;
+	padding: var(--section-padding);
+}
+
+.header__title {
+	margin: 10px 0 20px;
+}
+/* 
+.about {
+	background: #ff842a;
+	border-radius: 12px;
+	color: #fff;
+	margin-bottom: var(--section-margin-bottom);
+	padding: var(--section-padding);
+} */
+/*# sourceMappingURL=home.css.map */
