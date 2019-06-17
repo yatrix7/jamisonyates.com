@@ -13,6 +13,12 @@ body {
 	padding: 0 24px 24px;
 }
 
+main {
+	margin: 0 auto;
+	min-width: 375px;
+	max-width: 800px;
+}
+
 .container {
 	align-items: center;
 	justify-content: center;
