@@ -1,20 +1,44 @@
-body {
-	background: #f2edd7;
-	font-family: 'Fira Code', sans-serif;
-	padding: 0 24px 24px;
+@import 'site.css';
+
+.page-title {
+	color: var(--purple);
+	font-family: 'Comfortaa', cursive;
 }
 
-main {
-	margin: 0 auto;
-	min-width: 375px;
-	max-width: 800px;
+.my-career-header {
+	color: var(--purple);
+	font-family: 'Comfortaa', cursive;
 }
 
-.company-name,
+.section-header {
+	color: var(--green);
+	font-family: 'Comfortaa', cursive;
+}
+
+.card-content {
+	border: var(--purple) solid 1px;
+	border-radius: 0.25em;
+	color: var(--blue);
+	font-family: 'Noticia', serif;
+	padding: 1em 0.5em;
+}
+
+.nav-menu {
+	list-style: none;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.nav-menu > li {
+	display: inline-block;
+	margin-right: 1em;
+}
+/* .company-name,
 .date-range,
 .city-state {
 	display: inline-block;
-}
+} */
 
 /* .skills {
 	grid-template-columns: 1fr 1fr 1fr;

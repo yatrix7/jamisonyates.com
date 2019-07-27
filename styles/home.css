@@ -1,9 +1,18 @@
+/* todo: fallback fonts for the webfonts */
+@import 'colors.css';
+
 :root {
 	--section-padding: 20px;
 	--section-margin-bottom: 10px;
-	--face-viewbox-height: 210px;
-	--face-viewbox-width: 296px;
+	--face-viewbox-height: 450px;
+	--face-viewbox-width: 450px;
 }
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
 html,
 body {
 	height: 100%;
@@ -13,11 +22,10 @@ body {
 	background: #fff450;
 	color: #050709;
 	font-family: 'Fira Code', sans-serif;
-	padding: 0 24px 24px;
 }
 
 .main {
-	text-align: center;
+	/* text-align: center; */
 	font-size: 1.5em;
 	margin: 0 auto;
 	min-width: 375px;
@@ -26,12 +34,12 @@ body {
 }
 
 .face {
-	height: calc(var(--face-viewbox-height) * 2);
-	width: calc(var(--face-viewbox-width) * 2);
-	/* position: absolute; */
+	height: calc(var(--face-viewbox-height));
+	width: calc(var(--face-viewbox-width));
+	position: absolute;
 	left: 50%;
 	top: 50%;
-	/* transform: translate(-50%, -50%); */
+	transform: translate(-50%, -50%);
 	z-index: -1;
 }
 

@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Noticia+Text&display=swap');
+
+:root {
+	--purple: #BF55EC;
+	--green: #00d400;
+	--blue: #00ffff;
+    --background-color: #1b1b1b;
+    --comfortaa: font-family: 'Comfortaa', cursive;
+    --noticia: font-family: 'Noticia, 'serif;
+}
+
+
+html, body {
+    height: 100%;
+}
+body {
+	background: var(--background-color);
+}
+
+h1 {
+	font-size: 2em;
+}
+h2 {
+	font-size: 1.5em;
+}
+
+main {
+	margin: 0 auto;
+}
+
+.link {
+        color: var(--green);
+        font-family: 'Comfortaa', cursive;
+}
