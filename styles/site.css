@@ -34,8 +34,6 @@ main {
 }
 
 .link {
-	border: var(--purple) solid 1px;
-	border-radius: 0.25em;
         color: var(--green);
         font-family: 'Comfortaa', cursive;
 }
