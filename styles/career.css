@@ -1,58 +1,83 @@
 @import 'site.css';
 
-.page-title {
-	color: var(--purple);
-	font-family: 'Comfortaa', cursive;
+.header {
+	border-bottom: var(--purple) 1px solid;
+	margin-bottom: 0.5em;
 }
 
-.my-career-header {
+.header__title {
 	color: var(--purple);
 	font-family: 'Comfortaa', cursive;
+	font-size: 2em;
+	margin: 0.5em 0 0.5em 0.25em;
 }
 
-.section-header {
+.header__nav-menu {
+	list-style: none;
+	list-style-type: none;
+	margin: 0 0 1em 0.5em;
+	padding: 0;
+}
+
+.header__nav-menu-item {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.career {
+	margin: 0 0.5em;
+}
+
+.career__header {
+	color: var(--purple);
+	font-family: 'Comfortaa', cursive;
+	margin-bottom: 1em;
+}
+
+.career__section-header {
 	color: var(--green);
 	font-family: 'Comfortaa', cursive;
 }
 
-.card-content {
-	border: var(--purple) solid 1px;
-	border-radius: 0.25em;
+.career__summary {
 	color: var(--blue);
 	font-family: 'Noticia', serif;
-	padding: 1em 0.5em;
 }
 
-.nav-menu {
-	list-style: none;
-	list-style-type: none;
+.career__skills-list {
+	color: var(--blue);
+	font-family: 'Noticia', serif;
 	margin: 0;
 	padding: 0;
 }
 
-.nav-menu > li {
+.career__skill {
 	display: inline-block;
-	margin-right: 1em;
-}
-/* .company-name,
-.date-range,
-.city-state {
-	display: inline-block;
-} */
-
-/* .skills {
-	grid-template-columns: 1fr 1fr 1fr;
-	grid-template-rows: auto;
-}
-.skills > li {
-} */
-
-/* .skills {
-	display: flex;
-	flex-wrap: wrap;
+	border: var(--purple) solid 1px;
+	border-radius: 0.25em;
+	padding: 0.25em 0.5em;
+	margin: 00.125em;
 }
 
-.skills > li {
-	flex: 1 0 calc(100% / 3);
+.career__dabbled {
+	color: var(--blue);
+	font-family: 'Noticia', serif;
+	margin-top: 0.5em;
+}
+
+.career__work-history-header {
+	color: var(--purple);
+	font-family: 'Comfortaa', cursive;
 	margin-bottom: 0.5em;
-} */
+}
+
+.career__work-history-content {
+	color: var(--blue);
+	font-family: 'Noticia', serif;
+	margin-bottom: 1em;
+}
+
+/* todo: *groan* */
+.last-content {
+	margin-bottom: 0;
+}

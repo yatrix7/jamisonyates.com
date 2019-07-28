@@ -9,27 +9,33 @@
     --comfortaa: font-family: 'Comfortaa', cursive;
     --noticia: font-family: 'Noticia, 'serif;
 }
-
+html {
+    font-size: 18px;
+}
 
 html, body {
     height: 100%;
 }
+
 body {
 	background: var(--background-color);
-}
-
-h1 {
-	font-size: 2em;
-}
-h2 {
-	font-size: 1.5em;
 }
 
 main {
 	margin: 0 auto;
 }
 
+
+.card-content {
+	border: var(--purple) solid 1px;
+	border-radius: 0.25em;
+	margin: 0.5em 0 1.5em;
+	padding: 1em 0.5em;
+}
+
 .link {
+	border: var(--purple) solid 1px;
+	border-radius: 0.25em;
         color: var(--green);
         font-family: 'Comfortaa', cursive;
 }
