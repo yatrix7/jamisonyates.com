@@ -11,69 +11,68 @@
 	</head>
 
 	<body>
-		<header>
-			<nav>
-				<ul>
-					<li><a href="home.html">Home</a></li>
-					<li><a href="about.html">About</a></li>
-					<li><a href="career.html">Career</a></li>
+		<header class="header">
+			<h1 class="header__title">Jamison Yates</h1>
+			<nav class="header__nav" role="navigation" aria-label="Site navigation">
+				<ul class="header__nav-menu">
+					<li class="header__nav-menu-item">
+						<a class="header__nav-menu-item-link" href="home.html">Home</a>
+					</li>
+					<li class="header__nav-menu-item">
+						<a class="header__nav-menu-item-link" href="career.html">Career</a>
+					</li>
+					<li class="header__nav-menu-item">
+						<a
+							class="header__nav-menu-item-link header__nav-menu-item-link--selected"
+							href="about.html"
+							>About</a
+						>
+					</li>
+					<li class="header__nav-menu-item">
+						<a class="header__nav-menu-item-link" href="blog.html">Blog</a>
+					</li>
 				</ul>
 			</nav>
-			<!-- todo: contact information-->
 		</header>
 		<main>
-			<h1>About Yours Truly</h1>
-			<section>
-				<h2>The Basics</h2>
-				<p>
-					I'm a dude that writes software. That's what I do to keep the lights on and
-					sometimes just for fun. I also do things that don't require computer machines.
-					I've been strengh-training since 2017 (though not as dedicaed as I once was),
-					I've been gaming since the early 80's and golfing since the mid 90's. I also
-					like reading the interwebz and occasionally the written page.
-				</p>
-				<p>
-					That's my profession and those are my hobbies. The things that really matter are
-					the luckiest girl in the world, my wife, and our two adopted, half-crazy,
-					four-thirds wonderful dogs. Did I mention I'm bad at math? (I'm not really bad
-					at math, potential employers/clients). The Mrs. and the mutts are the reason I
-					get up in the morning and stare at a computer screen half of my waking hours.
-					Well, them and cheeseburgers. And pizza. And video games. And shiny new golf
-					stuff. But, moooooostly the wife and dogs...
-				</p>
-			</section>
-			<section>
-				<h2>How Did I Become a Software Engineer?</h2>
-				<p>
-					I'm so glad you asked! As I mentioned up there ^, I'm a gamer. I have been since
-					I was about five-years old with the Atari 2400. While I don't get to game as
-					much as I used to, I still find time to plug in and frag some bad guys. As with
-					most life-long gamers, I ended up building my own gaming rigs in the late 90's
-					and early 00's. It was rig-building that lead to my <em>Eureka!</em> moment:
-					<em
-						>I could do computer stuff <strong>for money</strong>. And money
-						means...<strong>more computer stuff!</strong>
-					</em>
-				</p>
-				<p>
-					So, I went back to college after a not-at-all successful start to my collegiate
-					career which included a suspension for academic reasons. Those reasons being
-					<em>too many F's, not enough A's</em>. C'mon, I started out in nursing and then
-					thought pursuing an accounting degree was a good idea. <em>Of course</em> I
-					stopped going to class. God bless nurses and accountants (maybe not accountants)
-					-- I'm not cut out for either profession as I hate both needles
-					<em>and</em> spreadsheets equally.
-				</p>
-				<p>
-					After a few years and enough credits to constitute an Associates Degree in
-					Computer Information Systems (Computer Stuff), I landed my first job as a
-					software engineer in 2006. The rest, as they say, is history.
-				</p>
-				<p>
-					PS - I did finish my Bachelors in Computer Stuff while doing computer stuff for
-					money. It's sorta like recursion! ...but not really. &#x1F60F;
-				</p>
-			</section>
+			<article class="about">
+				<h2 class="about__header">About Yours Truly</h2>
+
+				<h3 class="card-section-header">The Basics</h3>
+				<section class="card-content">
+					<p class="about__content">
+						I'm a dude that writes software. That's what I do to keep the lights on and
+						sometimes just for fun.
+					</p>
+					<p class="about__content">
+						I also do things that don't require a keyboard, such as strength-training (I
+						can lift as much as a 10-year old now!), golf, videogames (I’m a console
+						peasant, technically no keyboard), movies and a little reading.
+					</p>
+				</section>
+
+				<h3 class="card-section-header">What is Best in Life?</h3>
+				<section class="card-content">
+					<p class="about__content">
+						To crush your enemies, see them driven before you, and to hear the
+						lamentations of their women!
+					</p>
+					<p class="about__content">
+						Actually, that’s what’s best for Conan the Barbarian. For me, it’s kinda the
+						same thing, only completely different. What matters most to me are Mrs.
+						Yates, our families and our two (sorta crazy) rescues, Mischa and Elvis.
+					</p>
+					<p class="about__content">
+						The Mrs. and the mutts are the reason I get up in the morning and stare at a
+						computer screen half of my waking hours. Well, them and cheeseburgers and
+						pizza and video games and shiny new golf stuff and gas and clothes…but, ya,
+						mostly them.
+					</p>
+				</section>
+
+				<h3 class="card-section-header">So About Those Other Interests<h3>
+				<section class="card-content"></section>
+			</article>
 		</main>
 	</body>
 </html>

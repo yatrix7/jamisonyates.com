@@ -1,0 +1,13 @@
+@import 'site.css';
+
+.card-section-header {
+	color: var(--green);
+	font-family: 'Comfortaa', cursive;
+}
+
+.card-content {
+	border: var(--purple) solid 1px;
+	border-radius: 0.25em;
+	margin: 0.5em 0 1.5em;
+	padding: 0.75em;
+}

@@ -1,11 +1,19 @@
-body {
-	background: #f2edd7;
-	font-family: 'Fira Code', sans-serif;
-	padding: 0 24px 24px;
+@import 'site.css';
+@import 'card.css';
+@import 'header.css';
+
+.about {
+	margin: 0 0.5em;
 }
 
-main {
-	margin: 0 auto;
-	min-width: 375px;
-	max-width: 800px;
+.about__header {
+	color: var(--purple);
+	font-family: 'Comfortaa', cursive;
+	margin: 1em 0;
+}
+
+.about__content {
+	color: var(--blue);
+	font-family: 'Noticia Text', serif;
+	margin-bottom: 1em;
 }

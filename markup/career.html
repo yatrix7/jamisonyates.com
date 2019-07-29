@@ -3,10 +3,6 @@
 	<head>
 		<title>Jamison Yates</title>
 		<link href="../styles/career.css" rel="stylesheet" />
-		<link
-			rel="stylesheet"
-			href="https://cdn.jsdelivr.net/gh/tonsky/FiraCode@1.206/distr/fira_code.css"
-		/>
 	</head>
 
 	<body>
@@ -15,35 +11,41 @@
 			<nav class="header__nav" role="navigation" aria-label="Site navigation">
 				<ul class="header__nav-menu">
 					<li class="header__nav-menu-item">
-						<a class="link" href="home.html">Home</a>
+						<a class="header__nav-menu-item-link" href="home.html">Home</a>
 					</li>
 					<li class="header__nav-menu-item">
-						<a class="link link--selected" href="career.html">Career</a>
+						<a
+							class="header__nav-menu-item-link header__nav-menu-item-link--selected"
+							href="career.html"
+							>Career</a
+						>
 					</li>
 					<li class="header__nav-menu-item">
-						<a class="link" href="about.html">About</a>
+						<a class="header__nav-menu-item-link" href="about.html">About</a>
 					</li>
 					<li class="header__nav-menu-item">
-						<a class="link" href="blog.html">Blog</a>
+						<a class="header__nav-menu-item-link" href="blog.html">Blog</a>
 					</li>
 				</ul>
 			</nav>
 		</header>
+
 		<main>
+			<!--todo: consolidate this css into another file-->
 			<article class="career">
 				<h2 class="career__header">My Career</h2>
-				<!--todo: link to d/l resume somewhere in here-->
+				<!--todo: header__nav-menu-item-link to d/l resume somewhere in here-->
 				<!-- Psssst, <a href="">this is my resume</a>! Download it, be super-impressed and offer
 				me some work for money? -->
 
-				<h3 class="career__section-header">In a Nutshell</h3>
+				<h3 class="card-section-header">In a Nutshell</h3>
 				<p class="card-content career__summary">
 					I'm a full-stack web developer (and sometimes designer) that creates
 					applications to make people's lives a little easier...or at the very least less
 					tedious.
 				</p>
 
-				<h3 class="career__section-header">Stuff I'm Pretty Good At</h3>
+				<h3 class="card-section-header">Stuff I'm Pretty Good At</h3>
 				<section class="card-content">
 					<ul class="career__skills-list">
 						<li class="career__skill">C#</li>
@@ -74,7 +76,7 @@
 					</aside>
 				</section>
 
-				<h3 class="career__section-header">My Work History</h3>
+				<h3 class="card-section-header">My Work History</h3>
 				<section class="card-content">
 					<h4 class="career__work-history-header">
 						OrthoBanc, LLC,<br />

@@ -1,0 +1,47 @@
+@import 'site.css';
+
+.header {
+	border-bottom: var(--purple) 1px solid;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: baseline;
+	margin-bottom: 0.5em;
+}
+
+.header__title {
+	color: var(--purple);
+	font-family: 'Comfortaa', cursive;
+	font-size: 2em;
+	margin: 0.5em 1.5em 0.5em 0.25em;
+}
+
+.header__nav {
+	text-align: right;
+}
+
+.header__nav-menu {
+	list-style: none;
+	list-style-type: none;
+	margin: 0 0 1em 0.5em;
+	padding: 0;
+	display: flex;
+}
+
+.header__nav-menu-item {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.header__nav-menu-item-link {
+	color: var(--green);
+	font-family: 'Comfortaa', cursive;
+	text-decoration: none;
+}
+
+.header__nav-menu-item-link--selected {
+	border-bottom: var(--green) 1px solid;
+	/* border-radius: 0.25em; */
+	padding-bottom: 0.125 em;
+}
