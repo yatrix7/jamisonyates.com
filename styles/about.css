@@ -2,6 +2,19 @@
 @import 'card.css';
 @import 'header.css';
 
+.card-content > p {
+	color: var(--blue);
+	font-family: 'Noticia Text', serif;
+}
+
+.card-content > p:not(:last-of-type) {
+	margin: 0 0 1em 0;
+}
+
+.card-content > p:last-of-type {
+	margin: 0;
+}
+
 .about {
 	margin: 0 0.5em;
 }
@@ -12,8 +25,13 @@
 	margin: 1em 0;
 }
 
-.about__content {
-	color: var(--blue);
-	font-family: 'Noticia Text', serif;
-	margin-bottom: 1em;
+.about__quotation {
+	font-style: italic;
+}
+
+.about__hobbies-header {
+	color: var(--purple);
+	font-family: 'Comfortaa', cursive;
+	line-height: 1.25em;
+	margin: 0 0 0.5em 0;
 }

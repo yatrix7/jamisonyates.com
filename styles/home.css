@@ -1,71 +1,15 @@
-/* todo: fallback fonts for the webfonts */
-@import 'colors.css';
+@import 'site.css';
+@import 'card.css';
+@import 'header.css';
 
-:root {
-	--section-padding: 20px;
-	--section-margin-bottom: 10px;
-	--face-viewbox-height: 450px;
-	--face-viewbox-width: 450px;
-}
-
-* {
-	margin: 0;
-	padding: 0;
-}
-
-html,
-body {
+.main-content {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	height: 100%;
 }
 
-body {
-	background: #fff450;
-	color: #050709;
-	font-family: 'Fira Code', sans-serif;
+.card-content > p {
+	color: var(--blue);
+	font-family: 'Noticia Text', serif;
 }
-
-.main {
-	/* text-align: center; */
-	font-size: 1.5em;
-	margin: 0 auto;
-	min-width: 375px;
-	/*max-width: 1280px;*/
-	padding: 20px;
-}
-
-.face {
-	height: calc(var(--face-viewbox-height));
-	width: calc(var(--face-viewbox-width));
-	position: absolute;
-	left: 50%;
-	top: 50%;
-	transform: translate(-50%, -50%);
-	z-index: -1;
-}
-
-.container {
-	align-items: center;
-	justify-content: center;
-	display: flex;
-	max-width: 800px;
-}
-
-.header {
-	background: #de4d44;
-	border-radius: 12px;
-	color: #fff;
-	padding: var(--section-padding);
-}
-
-.header__title {
-	margin: 10px 0 20px;
-}
-/* 
-.about {
-	background: #ff842a;
-	border-radius: 12px;
-	color: #fff;
-	margin-bottom: var(--section-margin-bottom);
-	padding: var(--section-padding);
-} */
-/*# sourceMappingURL=home.css.map */

@@ -1,34 +1,47 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>JamisonYates.com</title>
+		<title>Jamison Yates</title>
+		<meta charset="utf-8" />
 		<link href="../styles/home.css" rel="stylesheet" />
-		<link
-			rel="stylesheet"
-			href="https://cdn.jsdelivr.net/gh/tonsky/FiraCode@1.206/distr/fira_code.css"
-		/>
 	</head>
 
 	<body>
-		<header>
-			<nav>
-				<ul>
-					<li><a href="home.html">Home</a></li>
-					<li><a href="about.html">About</a></li>
-					<li><a href="career.html">Career</a></li>
+		<header class="header">
+			<h1 class="header__title">Jamison Yates</h1>
+			<nav class="header__nav" role="navigation" aria-label="Site navigation">
+				<ul class="header__nav-menu">
+					<li class="header__nav-menu-item">
+						<a
+							class="header__nav-menu-item-link header__nav-menu-item-link--selected"
+							href="home.html"
+							>Home</a
+						>
+					</li>
+					<li class="header__nav-menu-item">
+						<a class="header__nav-menu-item-link" href="career.html">Career</a>
+					</li>
+					<li class="header__nav-menu-item">
+						<a class="header__nav-menu-item-link" href="about.html">About</a>
+					</li>
+					<li class="header__nav-menu-item">
+						<a class="header__nav-menu-item-link" href="blog.html">Blog</a>
+					</li>
 				</ul>
 			</nav>
 		</header>
-		<main class="main">
-			<!--todo: laser eyes?-->
-
-			<p>
-				You've found your way to the pesonal website of <strong>Jamison Yates</strong>.
-				There's not a lot to read and even less of it is interesting, sooo...enjoy!
-			</p>
-			<img class="face" alt="Jamison Yates" src="../assets/face-ring.svg" />
+		<main class="main-content">
+			<section class="card-content">
+				<p>
+					Hey there. My name is Jamison Yates and you’ve found yourself on my personal
+					website. I’m a professional full-stack web developer, team lead and Scrum
+					Master.
+				</p>
+				<p>
+					If you’d like to learn a little bit more about me, use the navigation above ↑.
+					There’s not a lot to read and even less of it’s interesting 😜.
+				</p>
+			</section>
 		</main>
-		<!-- todo: review semantic html and test for accessbility -->
-		<!-- todo: footer? -->
 	</body>
 </html>
