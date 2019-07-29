@@ -2,6 +2,11 @@
 
 .header {
 	border-bottom: var(--purple) 1px solid;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: baseline;
 	margin-bottom: 0.5em;
 }
 
@@ -9,7 +14,11 @@
 	color: var(--purple);
 	font-family: 'Comfortaa', cursive;
 	font-size: 2em;
-	margin: 0.5em 0 0.5em 0.25em;
+	margin: 0.5em 1.5em 0.5em 0.25em;
+}
+
+.header_nav {
+	text-align: right;
 }
 
 .header__nav-menu {
@@ -17,6 +26,7 @@
 	list-style-type: none;
 	margin: 0 0 1em 0.5em;
 	padding: 0;
+	display: flex;
 }
 
 .header__nav-menu-item {
@@ -41,12 +51,12 @@
 
 .career__summary {
 	color: var(--blue);
-	font-family: 'Noticia', serif;
+	font-family: 'Noticia Text', serif;
 }
 
 .career__skills-list {
 	color: var(--blue);
-	font-family: 'Noticia', serif;
+	font-family: 'Noticia Text', serif;
 	margin: 0;
 	padding: 0;
 }
@@ -56,24 +66,24 @@
 	border: var(--purple) solid 1px;
 	border-radius: 0.25em;
 	padding: 0.25em 0.5em;
-	margin: 00.125em;
+	margin: 0.25em 0.125em;
 }
 
 .career__dabbled {
 	color: var(--blue);
-	font-family: 'Noticia', serif;
+	font-family: 'Noticia Text', serif;
 	margin-top: 0.5em;
 }
 
 .career__work-history-header {
 	color: var(--purple);
 	font-family: 'Comfortaa', cursive;
-	margin-bottom: 0.5em;
+	margin: 0 0 0.5em 0;
 }
 
 .career__work-history-content {
 	color: var(--blue);
-	font-family: 'Noticia', serif;
+	font-family: 'Noticia Text', serif;
 	margin-bottom: 1em;
 }
 

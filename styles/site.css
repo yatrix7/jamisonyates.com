@@ -2,19 +2,19 @@
 @import url('https://fonts.googleapis.com/css?family=Comfortaa|Noticia+Text&display=swap');
 
 :root {
-	--purple: #BF55EC;
+	--purple: #bf55ec;
 	--green: #00d400;
 	--blue: #00ffff;
-    --background-color: #1b1b1b;
-    --comfortaa: font-family: 'Comfortaa', cursive;
-    --noticia: font-family: 'Noticia, 'serif;
-}
-html {
-    font-size: 18px;
+	--background-color: #1b1b1b;
 }
 
-html, body {
-    height: 100%;
+html {
+	font-size: 18px;
+}
+
+html,
+body {
+	height: 100%;
 }
 
 body {
@@ -23,17 +23,26 @@ body {
 
 main {
 	margin: 0 auto;
+	max-width: 960px;
 }
-
 
 .card-content {
 	border: var(--purple) solid 1px;
 	border-radius: 0.25em;
 	margin: 0.5em 0 1.5em;
-	padding: 1em 0.5em;
+	padding: 0.75em;
 }
 
 .link {
-        color: var(--green);
-        font-family: 'Comfortaa', cursive;
+	color: var(--green);
+	font-family: 'Comfortaa', cursive;
+	text-decoration: none;
+}
+
+.link--selected {
+	border-bottom: var(--green) 1px solid;
+	/* border-radius: 0.25em; */
+	padding-bottom: 0.125 em;
+
+	transform: scal;
 }
