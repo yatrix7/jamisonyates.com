@@ -2,9 +2,14 @@
 @import 'card.css';
 @import 'header.css';
 
+:root {
+	--content-line-height: 1.35em;
+}
+
 .card-content > p {
 	color: var(--blue);
 	font-family: 'Noticia Text', serif;
+	line-height: var(--content-line-height);
 }
 
 .card-content > p:not(:last-of-type) {

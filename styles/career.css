@@ -2,9 +2,14 @@
 @import 'card.css';
 @import 'header.css';
 
+:root {
+	--content-line-height: 1.35;
+}
+
 .card-content > p {
 	color: var(--blue);
 	font-family: 'Noticia Text', serif;
+	line-height: var(--content-line-height);
 }
 
 .card-content > p:not(:last-of-type) {
@@ -28,6 +33,7 @@
 .career__summary {
 	color: var(--blue);
 	font-family: 'Noticia Text', serif;
+	line-height: var(--content-line-height);
 }
 
 .career__skills-list {
@@ -49,6 +55,7 @@
 	color: var(--blue);
 	font-family: 'Noticia Text', serif;
 	margin-top: 0.5em;
+	line-height: var(--content-line-height);
 }
 
 .career__work-history-header {
@@ -62,4 +69,5 @@
 	color: var(--blue);
 	font-family: 'Noticia Text', serif;
 	margin: 0 0 1em 0;
+	line-height: var(--content-line-height);
 }

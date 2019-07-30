@@ -9,7 +9,25 @@
 	height: 100%;
 }
 
-.card-content > p {
+.card-content > div > p {
 	color: var(--blue);
 	font-family: 'Noticia Text', serif;
+	line-height: 1.5;
+}
+
+.welcome-note {
+	display: flex;
+	align-items: center;
+	max-width: 500px;
+}
+
+.content-container {
+	display: inline-block;
+}
+
+.face {
+	display: inline-block;
+	height: 174px;
+	width: 124px;
+	margin: 0 1.25em 0 0;
 }
