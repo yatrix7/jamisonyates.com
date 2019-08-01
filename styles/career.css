@@ -6,17 +6,17 @@
 	--content-line-height: 1.35;
 }
 
-.card-content > p {
+.card-content p {
 	color: var(--blue);
 	font-family: 'Noticia Text', serif;
 	line-height: var(--content-line-height);
 }
 
-.card-content > p:not(:last-of-type) {
+.card-content p:not(:last-of-type) {
 	margin: 0 0 1em 0;
 }
 
-.card-content > p:last-of-type {
+.card-content p:last-of-type {
 	margin: 0;
 }
 
