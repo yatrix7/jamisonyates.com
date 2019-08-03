@@ -10,14 +10,30 @@
 	margin-bottom: 0.5em;
 }
 
+.header--fixed {
+	background: var(--background-color);
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+.header--hidden {
+	visibility: hidden;
+	position: relative;
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+
 .header__title {
 	color: var(--purple);
 	font-family: 'Comfortaa', cursive;
-	margin: 0.5em 1.5em 0.5em 0.25em;
+	margin: 0.5em 1.5em 0.5em 0.5em;
 }
 
 .header__nav {
 	text-align: right;
+	margin-right: 0.5em;
 }
 
 .header__nav-menu {

@@ -6,7 +6,7 @@
 	</head>
 
 	<body>
-		<header class="header">
+		<header class="header header--fixed">
 			<h1 class="header__title">Jamison Yates</h1>
 			<nav class="header__nav" role="navigation" aria-label="Site navigation">
 				<ul class="header__nav-menu">
@@ -19,6 +19,31 @@
 							href="career.html"
 							>Career</a
 						>
+					</li>
+					<li class="header__nav-menu-item">
+						<a class="header__nav-menu-item-link" href="about.html">About</a>
+					</li>
+					<li class="header__nav-menu-item">
+						<a class="header__nav-menu-item-link" href="blog.html">Blog</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+
+		<!--duplicate header to push the content down for a responsive fixed header (God, this is hacky)-->
+		<header class="header header--hidden">
+			<h1 class="header__title">Jamison Yates</h1>
+			<nav class="header__nav" role="navigation" aria-label="Site navigation">
+				<ul class="header__nav-menu">
+					<li class="header__nav-menu-item">
+						<a
+							class="header__nav-menu-item-link header__nav-menu-item-link--selected"
+							href="home.html"
+							>Home</a
+						>
+					</li>
+					<li class="header__nav-menu-item">
+						<a class="header__nav-menu-item-link" href="career.html">Career</a>
 					</li>
 					<li class="header__nav-menu-item">
 						<a class="header__nav-menu-item-link" href="about.html">About</a>
