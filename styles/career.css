@@ -24,16 +24,37 @@
 	margin: 0 0.5em;
 }
 
+.career__header-container {
+	display: grid;
+	grid-template-columns: max-content;
+	grid-auto-rows: minmax(min-content, max-content);
+}
+
 .career__header {
 	color: var(--purple);
+	grid-column: 1;
 	font-family: 'Comfortaa', cursive;
-	margin: 1em 0;
+	margin: 0.5em 0 1em;
+}
+
+.career__laptop {
+	grid-column: 2;
+	grid-row-end: 3;
+	grid-row-start: 1;
+	margin: 0.7em 0 1em 1.5em;
+	max-width: 7em;
+}
+
+.career__nutshell-header {
+	grid-column: 1;
+	margin-top: 0;
 }
 
 .career__summary {
 	color: var(--blue);
 	font-family: 'Noticia Text', serif;
 	line-height: var(--content-line-height);
+	margin-top: 0;
 }
 
 .career__skills-list {
