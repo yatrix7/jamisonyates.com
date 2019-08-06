@@ -1,0 +1,28 @@
+<svg viewBox="0 0 115 73" version="1.1" 
+    xmlns="http://www.w3.org/2000/svg" 
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="laptop">
+            <path d="M105.50085,47.25 L105.419952,47.25 L114.695017,0.254160909 L29.6205567,1.40841927 L20.548578,47.5071585 L20.4959069,47.6182469 L0.531295516,71.75 L87.1779307,71.75 L105.50085,47.25 Z" id="Combined-Shape" stroke="#BF6EE0" stroke-width="0.5"></path>
+            <polygon id="touchpad" stroke="#00FFFF" stroke-width="0.5" points="36.6341463 62 64 62 58.0028951 70 30 70"></polygon>
+            <g id="keys" transform="translate(16.146604, 48.500000)">
+                <path d="M10.1270801,10.5 L16.8533961,2.5" stroke="#BF6EE0" stroke-width="0.5" stroke-linecap="square"></path>
+                <path d="M21.8979972,10.4651759 L28.5894505,2.74729606" stroke="#BF6EE0" stroke-width="0.5" stroke-linecap="square" transform="translate(25.243724, 6.606236) rotate(-0.600000) translate(-25.243724, -6.606236) "></path>
+                <path d="M33.8533854,10.1401091 L40.8936026,2.49794862" stroke="#BF6EE0" stroke-width="0.5" stroke-linecap="square" transform="translate(37.373494, 6.319029) rotate(-0.600000) translate(-37.373494, -6.319029) "></path>
+                <path d="M45.8533961,10.1380577 L53.2853847,2.5" stroke="#BF6EE0" stroke-width="0.5" stroke-linecap="square" transform="translate(49.569390, 6.319029) rotate(-0.600000) translate(-49.569390, -6.319029) "></path>
+                <path d="M15.9647035,10.5 L22.8533961,2.5" stroke="#BF6EE0" stroke-width="0.5" stroke-linecap="square"></path>
+                <path d="M27.8533858,10.1400186 L34.9108801,2.49803908" stroke="#BF6EE0" stroke-width="0.5" stroke-linecap="square" transform="translate(31.382133, 6.319029) rotate(-0.600000) translate(-31.382133, -6.319029) "></path>
+                <path d="M39.8533961,10.1380577 L47.2853847,2.5" stroke="#BF6EE0" stroke-width="0.5" stroke-linecap="square" transform="translate(43.569390, 6.319029) rotate(-0.600000) translate(-43.569390, -6.319029) "></path>
+                <path d="M51.8533961,10.1380577 L59.2853847,2.5" stroke="#BF6EE0" stroke-width="0.5" stroke-linecap="square" transform="translate(55.569390, 6.319029) rotate(-0.600000) translate(-55.569390, -6.319029) "></path>
+                <path d="M57.8533961,10.434606 L64.8623823,2.670876" stroke="#BF6EE0" stroke-width="0.5" stroke-linecap="square"></path>
+                <path d="M63.8533961,10.26373 L70.8623823,2.5" stroke="#BF6EE0" stroke-width="0.5" stroke-linecap="square"></path>
+                <path d="M5.82397493,8.5 L71.1033961,8.5" stroke="#BF6EE0" stroke-width="0.5" stroke-linecap="square"></path>
+                <path d="M7.50339611,6.5 L72.7285435,6.5" stroke="#BF6EE0" stroke-width="0.5" stroke-linecap="square"></path>
+                <path d="M9.20339611,4.5 L74.7132559,4.5" stroke="#BF6EE0" stroke-width="0.5" stroke-linecap="square"></path>
+            </g>
+            <path d="M32.7283414,4.28995673 L24.3044714,46.75 L101.271254,46.75 L109.696134,3.25411212 L32.7283414,4.28995673 Z" id="screen" stroke="#00d400" stroke-width="0.5" fill-opacity="0" fill="#DCC6E0"></path>
+            <polygon id="front" fill="#BF6EE0" points="7.10542736e-14 72 87 71 87 72.616929 7.10542736e-14 73"></polygon>
+            <polygon id="right-side" fill="#BF6EE0" points="87 71.0714286 106 46.1794748 106 47.6142963 87.0089862 72.6111217"></polygon>
+        </g>
+    </g>
+</svg>
