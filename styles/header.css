@@ -21,7 +21,7 @@
 	visibility: hidden;
 	position: relative;
 	width: 100%;
-	top: 0;
+	top: -0.5em;
 	left: 0;
 }
 
@@ -33,7 +33,7 @@
 
 .header__nav {
 	text-align: right;
-	margin-right: 0.5em;
+	margin: 0 0.5em;
 }
 
 .header__nav-menu {

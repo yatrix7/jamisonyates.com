@@ -6,16 +6,16 @@
             <g id="barbell" transform="translate(0.750000, 0.000000)">
                 <path d="M44.875,16.375 L40.625,16.375 L40.625,25.625 L44.875,25.625 L44.875,22.625 L135.625,22.625 L135.625,25.625 L139.875,25.625 L139.875,16.375 L135.625,16.375 L135.625,19.375 L44.875,19.375 L44.875,16.375 Z" id="middle-bar" stroke="#BF6EE0"></path>
                 <g id="left-side">
-                    <rect id="left-45" stroke="#BF6EE0" x="37.625" y="0.375" width="2.25" height="43.25"></rect>
-                    <rect id="left-35" stroke="#00D400" x="34.625" y="4.375" width="2.25" height="35.25"></rect>
+                    <rect id="left-45" stroke="#00D400" x="37.625" y="0.375" width="2.25" height="43.25"></rect>
+                    <rect id="left-35" stroke="#00FFFF" x="34.625" y="4.375" width="2.25" height="35.25"></rect>
                     <rect id="left-collar" stroke="#BF6EE0" x="0.375" y="18.375" width="31.25" height="5.25"></rect>
-                    <rect id="left-25" stroke="#00FFFF" x="31.625" y="8.375" width="2.25" height="27.25"></rect>
+                    <rect id="left-25" stroke="#00D400" x="31.625" y="8.375" width="2.25" height="27.25"></rect>
                 </g>
                 <g id="right-side" transform="translate(140.250000, 0.000000)">
                     <rect id="right-collar" stroke="#BF6EE0" x="8.625" y="18.375" width="32.25" height="5.25"></rect>
-                    <rect id="right-25" stroke="#00FFFF" x="6.375" y="8.375" width="2.25" height="27.25"></rect>
-                    <rect id="right-35" stroke="#00D400" x="3.375" y="4.375" width="2.25" height="35.25"></rect>
-                    <rect id="right-45" stroke="#BF6EE0" x="0.375" y="0.375" width="2.25" height="43.25"></rect>
+                    <rect id="right-25" stroke="#00D400" x="6.375" y="8.375" width="2.25" height="27.25"></rect>
+                    <rect id="right-35" stroke="#00FFFF" x="3.375" y="4.375" width="2.25" height="35.25"></rect>
+                    <rect id="right-45" stroke="#00D400" x="0.375" y="0.375" width="2.25" height="43.25"></rect>
                 </g>
             </g>
         </g>

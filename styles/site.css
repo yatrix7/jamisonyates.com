@@ -11,7 +11,7 @@
 html {
 	/* found here: https://css-tricks.com/books/volume-i/scale-typography-screen-size/ */
 	font-size: calc(16px + (22 - 16) * ((100vw - 375px) / (1440 - 375)));
-	margin: 0.5em;
+	margin: 0;
 }
 
 html,
@@ -21,7 +21,7 @@ body {
 
 body {
 	background: var(--background-color);
-	margin: 0;
+	margin: 0 0.5em;
 	padding: 0;
 }
 

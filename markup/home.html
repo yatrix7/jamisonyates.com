@@ -34,6 +34,7 @@
 		<!--duplicate header to push the content down for a responsive fixed header (God, this is hacky)-->
 		<header class="header header--hidden">
 			<h1 class="header__title">Jamison Yates</h1>
+
 			<nav class="header__nav" role="navigation" aria-label="Site navigation">
 				<ul class="header__nav-menu">
 					<li class="header__nav-menu-item">
@@ -54,12 +55,18 @@
 
 		<main class="main-content">
 			<section class="card-content welcome-note">
-				<img class="face" src="../assets/face-outline.svg" alt="face outline" />
-				<div class="content-container" role="none">
+				<img
+					class="welcome-note__face"
+					src="../assets/face-outline.svg"
+					alt="outline of site author's face"
+				/>
+
+				<div class="welcome-note__content" role="none">
+					<h2 class="welcome-note__header">Welcome!</h2>
 					<p>
 						Hey there! Looks like you've landed on my website. If you’d like to learn a
 						little bit more about me, have a look around. There’s not a whole lot to
-						read and even less of it’s interesting...soooo, enjoy! 😜
+						read and even less of it’s interesting...soooo, enjoy!
 					</p>
 				</div>
 			</section>

@@ -1,0 +1,19 @@
+@import 'site.css';
+@import 'card.css';
+@import 'header.css';
+
+.blog {
+	margin: 0 0.5em;
+}
+
+.blog__header {
+	color: var(--purple);
+	font-family: 'Comfortaa', cursive;
+	margin: 1em 0;
+}
+
+.card-content p {
+	color: var(--blue);
+	font-family: 'Noticia Text', serif;
+	line-height: var(--content-line-height);
+}

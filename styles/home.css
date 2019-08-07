@@ -2,16 +2,10 @@
 @import 'card.css';
 @import 'header.css';
 
-body {
-	overflow-y: hidden;
-}
-
 .main-content {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	/* height: 100%; */
-	/* margin: 0 0.5em; */
 	transform: translateY(2em);
 }
 
@@ -28,11 +22,17 @@ body {
 	max-width: 700px;
 }
 
-.content-container {
+.welcome-note__header {
+	color: var(--purple);
+	font-family: 'Comfortaa', cursive;
+	margin: 0.75em 0;
+}
+
+.welcome-note__content {
 	display: inline-block;
 }
 
-.face {
+.welcome-note__face {
 	display: inline-block;
 	height: 174px;
 	width: 124px;

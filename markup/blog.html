@@ -1,7 +1,92 @@
-<ul>
-	<li>pinned "about this site" blog post</li>
-	<li>how i become an engineer?</li>
-	<li>unemployment</li>
-	<li>imposter syndrome</li>
-	<li>stahp coding on whiteboard/with audience</li>
-</ul>
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Jamison Yates</title>
+		<meta charset="utf-8" />
+		<link href="../styles/blog.css" rel="stylesheet" />
+	</head>
+
+	<body>
+		<header class="header header--fixed">
+			<h1 class="header__title">Jamison Yates</h1>
+			<nav class="header__nav" role="navigation" aria-label="Site navigation">
+				<ul class="header__nav-menu">
+					<li class="header__nav-menu-item">
+						<a class="header__nav-menu-item-link" href="home.html">Home</a>
+					</li>
+					<li class="header__nav-menu-item">
+						<a class="header__nav-menu-item-link" href="career.html">Career</a>
+					</li>
+					<li class="header__nav-menu-item">
+						<a class="header__nav-menu-item-link" href="about.html">About</a>
+					</li>
+					<li class="header__nav-menu-item">
+						<a
+							class="header__nav-menu-item-link header__nav-menu-item-link--selected"
+							href="blog.html"
+							>Blog</a
+						>
+					</li>
+				</ul>
+			</nav>
+		</header>
+
+		<!--duplicate header to push the content down for a responsive fixed header (God, this is hacky)-->
+		<header class="header header--hidden">
+			<h1 class="header__title">Jamison Yates</h1>
+
+			<nav class="header__nav" role="navigation" aria-label="Site navigation">
+				<ul class="header__nav-menu">
+					<li class="header__nav-menu-item">
+						<a class="header__nav-menu-item-link" href="home.html">Home</a>
+					</li>
+					<li class="header__nav-menu-item">
+						<a class="header__nav-menu-item-link" href="career.html">Career</a>
+					</li>
+					<li class="header__nav-menu-item">
+						<a class="header__nav-menu-item-link" href="about.html">About</a>
+					</li>
+					<li class="header__nav-menu-item">
+						<a class="header__nav-menu-item-link" href="blog.html">Blog</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+
+		<main>
+			<article class="blog">
+				<h2 class="blog__header">Brain.Dump(&nbsp;)</h2>
+				<h3 class="card-section-header">2019, Aug 6, About this Site v1<sup>th</sup></h3>
+				<section class="card-content">
+					<p>
+						I've been wanting to do a personal website since the spring of 1903
+						(approx.) and
+						<em>finally</em> took the time to do it. I wanted to keep the site pretty
+						simple out of the gate from a technical perspective
+						<em>because the site is very simple </em>. I'm a big fan of avoiding
+						complexity until things get complex and not before. As a result, v1 of this
+						site has been built with zero JavaScript, no CSS pre-compilers, no
+						frameworks, etc. The site is built with Html and vanilla CSS -- that's it.
+						As this blog grows, complexity will be needed to manage it and I'll start
+						thinking about JS frameworks then. Until then, nah.
+					</p>
+					<p>
+						The process of developing this site was pretty vanilla as well. I designed
+						the site in Sketch, mostly because I wanted the reps in Sketch to get better
+						acquainted with it. All of the SVG's were also made in Sketch. For this
+						site, mocking the entire thing was probably a little overkill, but it was
+						fun. I used Zeplin to share my Sketch mock-ups with some friends to get
+						early feedback. For development, I used VS Code and a handful of useful
+						extensions. That's honestly all there was to it -- simple site, simple
+						stack, good tooling.
+					</p>
+					<p>
+						PS - if you're wondering about the color scheme, I was listening to the
+						Tron: Legacy soundtrack a lot while I was designing it. I don't think the
+						way it turned out is a coincidence.
+					</p>
+				</section>
+			</article>
+		</main>
+	</body>
+</html>
