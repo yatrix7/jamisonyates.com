@@ -2,7 +2,7 @@
     xmlns="http://www.w3.org/2000/svg" 
     xmlns:xlink="http://www.w3.org/1999/xlink">
     <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="barbell-lines" stroke-width="0.75">
+        <g id="barbell-lines" stroke-width="1">
             <g id="barbell" transform="translate(0.750000, 0.000000)">
                 <path d="M44.875,16.375 L40.625,16.375 L40.625,25.625 L44.875,25.625 L44.875,22.625 L135.625,22.625 L135.625,25.625 L139.875,25.625 L139.875,16.375 L135.625,16.375 L135.625,19.375 L44.875,19.375 L44.875,16.375 Z" id="middle-bar" stroke="#BF6EE0"></path>
                 <g id="left-side">
