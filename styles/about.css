@@ -24,6 +24,10 @@
 	margin: 0 0.5em;
 }
 
+.about a {
+	color: var(--green);
+}
+
 .about__header {
 	color: var(--purple);
 	font-family: var(--main-font-family);
