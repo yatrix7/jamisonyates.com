@@ -2,18 +2,63 @@
 @import 'card.css';
 @import 'header.css';
 
+.card-content p {
+	color: var(--blue);
+	font-family: var(--content-font-family);
+	line-height: var(--content-line-height);
+}
+
+.card-content p:not(:last-of-type) {
+	margin: 0 0 1em 0;
+}
+
+.card-content p:last-of-type {
+	margin: 0;
+}
+
 .blog {
 	margin: 0 0.5em;
 }
 
+.blog a {
+	color: var(--green);
+}
+
 .blog__header {
 	color: var(--purple);
-	font-family: 'Comfortaa', cursive;
+	font-family: var(--main-font-family);
 	margin: 1em 0;
 }
 
-.card-content p {
-	color: var(--blue);
-	font-family: 'Noticia Text', serif;
-	line-height: var(--content-line-height);
+.blog__code-block {
+	display: grid;
+	grid-template-columns: 1em;
+	justify-content: center;
+	font-style: italic;
+}
+
+.blog__addend-top {
+	grid-column: 2;
+	grid-row: 1;
+}
+.blog__plus-sign {
+	grid-column: 1;
+	grid-row: 2;
+}
+
+.blog__addend-bottom {
+	border-bottom: solid 0.1em var(--blue);
+	grid-column: 2;
+	grid-row: 2;
+	padding-bottom: 0.25em;
+}
+
+.blog__sum {
+	grid-column: 2;
+	grid-row: 3;
+}
+
+.blog__disclaimer {
+	font-weight: 700;
+	text-decoration: underline;
 }

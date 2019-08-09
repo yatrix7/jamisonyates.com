@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Comfortaa|Noticia+Text&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
 
 :root {
 	--purple: #bf55ec;
 	--green: #00d400;
 	--blue: #00ffff;
 	--background-color: #1b1b1b;
+	--main-font-family: 'Comfortaa', cursive;
+	--content-font-family: 'Roboto Slab', serif;
 }
 
 html {

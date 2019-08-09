@@ -8,7 +8,7 @@
 
 .card-content p {
 	color: var(--blue);
-	font-family: 'Noticia Text', serif;
+	font-family: var(--content-font-family);
 	line-height: var(--content-line-height);
 }
 
@@ -26,7 +26,7 @@
 
 .about__header {
 	color: var(--purple);
-	font-family: 'Comfortaa', cursive;
+	font-family: var(--main-font-family);
 	margin: 1em 0;
 }
 
@@ -36,7 +36,7 @@
 
 .about__hobbies-header {
 	color: var(--purple);
-	font-family: 'Comfortaa', cursive;
+	font-family: var(--main-font-family);
 	line-height: 1.25em;
 	margin: 0 0 0.5em 0;
 }

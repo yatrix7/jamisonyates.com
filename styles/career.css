@@ -8,7 +8,7 @@
 
 .card-content p {
 	color: var(--blue);
-	font-family: 'Noticia Text', serif;
+	font-family: var(--content-font-family);
 	line-height: var(--content-line-height);
 }
 
@@ -33,7 +33,7 @@
 .career__header {
 	color: var(--purple);
 	grid-column: 1;
-	font-family: 'Comfortaa', cursive;
+	font-family: var(--main-font-family);
 	margin: 0.5em 0 1em;
 }
 
@@ -52,14 +52,14 @@
 
 .career__summary {
 	color: var(--blue);
-	font-family: 'Noticia Text', serif;
+	font-family: var(--content-font-family);
 	line-height: var(--content-line-height);
 	margin-top: 0;
 }
 
 .career__skills-list {
 	color: var(--blue);
-	font-family: 'Noticia Text', serif;
+	font-family: var(--content-font-family);
 	margin: 0;
 	padding: 0;
 }
@@ -74,21 +74,21 @@
 
 .career__dabbled {
 	color: var(--blue);
-	font-family: 'Noticia Text', serif;
+	font-family: var(--content-font-family);
 	margin-top: 0.5em;
 	line-height: var(--content-line-height);
 }
 
 .career__work-history-header {
 	color: var(--purple);
-	font-family: 'Comfortaa', cursive;
+	font-family: var(--main-font-family);
 	line-height: 1.25em;
 	margin: 0 0 0.5em 0;
 }
 
 .career__work-history-content {
 	color: var(--blue);
-	font-family: 'Noticia Text', serif;
+	font-family: var(--content-font-family);
 	margin: 0 0 1em 0;
 	line-height: var(--content-line-height);
 }

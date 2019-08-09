@@ -12,7 +12,7 @@
 /* get rid of this nonsense */
 .card-content p {
 	color: var(--blue);
-	font-family: 'Noticia Text', serif;
+	font-family: var(--content-font-family);
 	line-height: 1.5;
 }
 
@@ -24,7 +24,7 @@
 
 .welcome-note__header {
 	color: var(--purple);
-	font-family: 'Comfortaa', cursive;
+	font-family: var(--main-font-family);
 	margin: 0.75em 0;
 }
 

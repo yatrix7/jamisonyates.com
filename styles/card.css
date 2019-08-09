@@ -2,7 +2,7 @@
 
 .card-section-header {
 	color: var(--green);
-	font-family: 'Comfortaa', cursive;
+	font-family: var(--main-font-family);
 }
 
 .card-content {
