@@ -19,7 +19,7 @@ function css() {
 
 // moves html into dist folder
 function html() {
-	return src(['html/*.html']).pipe(dest('dist/html'))
+	return src(['html/*.html']).pipe(dest('dist'))
 }
 
 exports.default = series(cleanDist, parallel(css, html))
