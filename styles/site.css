@@ -18,7 +18,7 @@
 
 html {
 	/* found here: https://css-tricks.com/books/volume-i/scale-typography-screen-size/ */
-	font-size: calc(16px + (22 - 16) * ((100vw - 375px) / (1440 - 375)));
+	font-size: calc(18px + (22 - 18) * ((100vw - 375px) / (1440 - 375)));
 	margin: 0;
 }
 
