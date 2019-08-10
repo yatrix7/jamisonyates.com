@@ -14,6 +14,7 @@
 	justify-content: space-between;
 	align-items: baseline;
 	margin-bottom: 0.5em;
+	z-index: 1;
 }
 
 .header--fixed {
@@ -23,6 +24,7 @@
 	top: 0;
 	left: 0;
 }
+
 .header--hidden {
 	visibility: hidden;
 	position: relative;
