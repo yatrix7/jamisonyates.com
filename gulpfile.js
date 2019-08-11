@@ -1,25 +1,22 @@
 const { src, dest, series, parallel } = require('gulp')
-const clean = require('gulp-clean')
+const del = require('del')
 const minifyCSS = require('gulp-csso')
 
-// deletes dist folder
-function cleanDist() {
-	return src('dist', {
-		read: false,
-		allowEmpty: true
-	}).pipe(clean())
+// deletes public folder
+async function clean() {
+	await del(['public'])
 }
 
-// minifies and moves css into dist folder
+// minifies and moves css into public folder
 function css() {
-	return src('styles/*.css')
+	return src('css/*.css')
 		.pipe(minifyCSS())
-		.pipe(dest('dist/styles'))
+		.pipe(dest('public/styles'))
 }
 
-// moves html into dist folder
+// moves html into public folder
 function html() {
-	return src(['html/*.html']).pipe(dest('dist/pages'))
+	return src(['html/*.html']).pipe(dest('public'))
 }
 
-exports.default = series(cleanDist, parallel(css, html))
+exports.default = series(clean, parallel(css, html))
