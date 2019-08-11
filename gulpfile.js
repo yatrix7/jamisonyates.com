@@ -7,6 +7,11 @@ async function clean() {
 	await del(['public'])
 }
 
+// moves images into public folder
+function images() {
+	return src('images/**.*').pipe(dest('public/images'))
+}
+
 // minifies and moves css into public folder
 function css() {
 	return src('styles/*.css')
@@ -16,7 +21,7 @@ function css() {
 
 // moves html into public folder
 function html() {
-	return src(['html/*.html']).pipe(dest('public'))
+	return src('html/*.html').pipe(dest('public'))
 }
 
-exports.default = series(clean, parallel(css, html))
+exports.default = series(clean, parallel(css, images, html))
