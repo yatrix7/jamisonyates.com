@@ -14,14 +14,14 @@ function images() {
 
 // minifies and moves css into public folder
 function css() {
-	return src('styles/*.css')
+	return src('src/styles/*.css')
 		.pipe(minifyCSS())
 		.pipe(dest('public/styles'))
 }
 
 // moves html into public folder
 function html() {
-	return src('html/*.html').pipe(dest('public'))
+	return src('src/*.html').pipe(dest('public'))
 }
 
 exports.default = series(clean, parallel(css, images, html))
