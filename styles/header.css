@@ -26,11 +26,10 @@
 }
 
 .header--hidden {
-	visibility: hidden;
+	visibility: collapse;
 	position: relative;
-	width: 100%;
-	top: -0.5em;
-	left: 0;
+	width: calc(100% + 1em);
+	left: -0.5em;
 }
 
 .header__title {
@@ -82,23 +81,3 @@
 	position: relative;
 	width: 100%;
 }
-
-/* 
-@keyframes underline-nav {
-	0% {
-	  width: 0%;
-	}
-  }
-  .border {
-	height: 0.25em;
-	background: red;
-	margin: 0 auto;
-	//left: calc(50% - calc(var(--end-width) / 2));
-	// width: var(--end-width);
-	position: relative;
-	// left: calc(50% - var(--end-width));
-  
-	animation: 2s underline-nav;
-	left: 0;
-	width: 100%;
-  } */
