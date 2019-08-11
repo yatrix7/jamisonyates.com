@@ -9,7 +9,7 @@ async function clean() {
 
 // minifies and moves css into public folder
 function css() {
-	return src('css/*.css')
+	return src('styles/*.css')
 		.pipe(minifyCSS())
 		.pipe(dest('public/styles'))
 }
