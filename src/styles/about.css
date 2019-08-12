@@ -56,9 +56,7 @@
 }
 
 .about__golf-club {
-	margin: -1em 0;
+	margin: 0.5em 0;
 	position: relative;
-	max-height: 10em;
-	transform: rotate(45deg);
-	z-index: -1;
+	max-height: 7em;
 }
