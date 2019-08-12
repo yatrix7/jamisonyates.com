@@ -1,6 +1,8 @@
 const { src, dest, series, parallel } = require('gulp')
 const del = require('del')
 const minifyCSS = require('gulp-csso')
+const autoprefixer = require('autoprefixer')
+const postcss = require('gulp-postcss')
 
 // deletes public folder
 async function clean() {
@@ -14,9 +16,12 @@ function images() {
 
 // minifies and moves css into public folder
 function css() {
-	return src('src/styles/*.css')
-		.pipe(minifyCSS())
-		.pipe(dest('public/styles'))
+	return (
+		src('src/styles/*.css')
+			.pipe(postcss([autoprefixer()]))
+			// .pipe(minifyCSS())
+			.pipe(dest('public/styles'))
+	)
 }
 
 // moves html into public folder
