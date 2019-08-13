@@ -2,17 +2,17 @@
 @import 'card.css';
 @import 'header.css';
 
-.card-content p {
+.card p {
 	color: var(--blue);
 	font-family: var(--content-font-family);
 	line-height: var(--content-line-height);
 }
 
-.card-content p:not(:last-of-type) {
+.card p:not(:last-of-type) {
 	margin: 0 0 1em 0;
 }
 
-.card-content p:last-of-type {
+.card p:last-of-type {
 	margin: 0;
 }
 

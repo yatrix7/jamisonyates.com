@@ -6,17 +6,17 @@
 	--content-line-height: 1.35em;
 }
 
-.card-content p {
+.card p {
 	color: var(--blue);
 	font-family: var(--content-font-family);
 	line-height: var(--content-line-height);
 }
 
-.card-content p:not(:last-of-type) {
+.card p:not(:last-of-type) {
 	margin: 0 0 1em 0;
 }
 
-.card-content p:last-of-type {
+.card p:last-of-type {
 	margin: 0;
 }
 
@@ -38,7 +38,12 @@
 	font-style: italic;
 }
 
-.about__hobbies-header {
+.about__interests {
+	display: flex;
+	flex-direction: column;
+}
+
+.about__interests-header {
 	color: var(--purple);
 	font-family: var(--main-font-family);
 	line-height: 1.25em;

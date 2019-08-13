@@ -1,11 +1,6 @@
 @import 'site.css';
 
-.card-section-header {
-	color: var(--green);
-	font-family: var(--main-font-family);
-}
-
-.card-content {
+.card {
 	border: var(--purple) solid 1px;
 	border-radius: 0.25em;
 	margin: 0.5em 0 1.5em;

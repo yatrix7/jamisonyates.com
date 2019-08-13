@@ -48,6 +48,8 @@ h2 {
 }
 
 h3 {
+	color: var(--green);
+	font-family: var(--main-font-family);
 	font-size: 1.25em;
 }
 
