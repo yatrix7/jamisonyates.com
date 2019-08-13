@@ -6,17 +6,17 @@
 	--content-line-height: 1.35;
 }
 
-.card-content p {
+.card p {
 	color: var(--blue);
 	font-family: var(--content-font-family);
 	line-height: var(--content-line-height);
 }
 
-.card-content p:not(:last-of-type) {
+.card p:not(:last-of-type) {
 	margin: 0 0 1em 0;
 }
 
-.card-content p:last-of-type {
+.card p:last-of-type {
 	margin: 0;
 }
 
@@ -34,14 +34,16 @@
 	color: var(--purple);
 	grid-column: 1;
 	font-family: var(--main-font-family);
-	margin: 0.5em 0 1em;
+	/* todo: see about a better margin fix that works across all the pages;
+		this is kinda hacky getting down to 3 decimal places */
+	margin: 0.675em 0 1em;
 }
 
 .career__laptop {
 	grid-column: 2;
 	grid-row-end: 3;
 	grid-row-start: 1;
-	margin: 0.7em 0 1em 2em;
+	margin: 1em 0 1em 2em;
 	max-width: 7em;
 }
 
