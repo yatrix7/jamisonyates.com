@@ -1,0 +1,9 @@
+@import 'site.css';
+
+.footer {
+	display: flex;
+}
+
+.footer__github-link {
+	background-color: red;
+}
