@@ -1,6 +1,7 @@
 @import 'site.css';
 @import 'card.css';
 @import 'header.css';
+@import 'footer.css';
 
 :root {
 	--content-line-height: 1.35;

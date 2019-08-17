@@ -1,6 +1,7 @@
 @import 'site.css';
 @import 'card.css';
 @import 'header.css';
+@import 'footer.css';
 
 .main-content {
 	display: flex;
