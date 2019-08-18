@@ -34,11 +34,6 @@
 	margin: 0 0.5em;
 }
 
-.footer__github,
-.footer__linkedin {
+.footer__image {
 	height: 1.75em;
-}
-
-.footer__instagram {
-	height: 2.5em;
 }

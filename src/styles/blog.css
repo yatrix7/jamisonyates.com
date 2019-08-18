@@ -31,6 +31,10 @@
 	margin: 0.5em 0;
 }
 
+.blog__quote {
+	font-style: italic;
+}
+
 .blog__code-block {
 	display: grid;
 	grid-template-columns: 1em;
