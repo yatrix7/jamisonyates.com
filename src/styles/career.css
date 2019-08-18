@@ -1,6 +1,7 @@
 @import 'site.css';
 @import 'card.css';
 @import 'header.css';
+@import 'footer.css';
 
 :root {
 	--content-line-height: 1.35;
@@ -36,20 +37,19 @@
 	font-family: var(--main-font-family);
 	/* todo: see about a better margin fix that works across all the pages;
 		this is kinda hacky getting down to 3 decimal places */
-	margin: 0.675em 0 1em;
+	margin: 0.5em 0 0;
 }
 
 .career__laptop {
 	grid-column: 2;
 	grid-row-end: 3;
 	grid-row-start: 1;
-	margin: 1em 0 1em 2em;
-	max-width: 7em;
+	margin: 1em 0 1em 1em;
+	width: 6em;
 }
 
 .career__nutshell-header {
 	grid-column: 1;
-	margin-top: 0;
 }
 
 .career__summary {
