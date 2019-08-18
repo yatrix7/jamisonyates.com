@@ -1,6 +1,7 @@
 @import 'site.css';
 @import 'card.css';
 @import 'header.css';
+@import 'footer.css';
 
 .card p {
 	color: var(--blue);
@@ -27,7 +28,7 @@
 .blog__header {
 	color: var(--purple);
 	font-family: var(--main-font-family);
-	margin: 1em 0;
+	margin: 0.5em 0;
 }
 
 .blog__code-block {

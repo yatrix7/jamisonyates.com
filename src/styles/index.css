@@ -3,21 +3,18 @@
 @import 'header.css';
 @import 'footer.css';
 
-.main-content {
-	display: flex;
-	justify-content: center;
-	max-width: 900px;
-	padding: 0 0.5em;
-}
-
 .main-content p {
 	color: var(--blue);
 	font-family: var(--content-font-family);
 	line-height: 1.5;
 }
 
+.welcome-note {
+	margin: 0 0.5em;
+}
+
 .welcome-note__header {
 	color: var(--purple);
 	font-family: var(--main-font-family);
-	margin: 0.75em 0;
+	margin: 0.5em 0;
 }

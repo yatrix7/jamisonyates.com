@@ -29,6 +29,8 @@ body {
 
 body {
 	background: var(--background-color);
+	display: flex;
+	flex-direction: column;
 	font-family: var(--fallback-font-family);
 	margin: 0 0.5em;
 	padding: 0;
@@ -37,6 +39,7 @@ body {
 
 main {
 	margin: 0 auto;
+	flex: 1;
 	max-width: 900px;
 }
 

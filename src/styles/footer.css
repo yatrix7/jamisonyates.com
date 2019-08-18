@@ -6,9 +6,8 @@
 	bottom: 0;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
 	left: -0.5em;
-	position: absolute;
+	position: relative;
 	width: calc(100% + 1em);
 }
 
@@ -20,7 +19,6 @@
 
 .footer__email-link {
 	color: var(--green);
-	font-family: var(--main-font-family);
 	text-decoration: none;
 }
 
