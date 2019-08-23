@@ -13,7 +13,7 @@
 	},
 	"scripts": {
 		"build": "gulp",
-		"clean": "rm -rf dist"
+		"clean": "rm -rf public"
 	},
 	"repository": {
 		"type": "git",

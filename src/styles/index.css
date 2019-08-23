@@ -3,6 +3,11 @@
 @import 'header.css';
 @import 'footer.css';
 
+.footer {
+	/* override the position as there's not enough content to push it to the bottom */
+	position: absolute;
+}
+
 .main-content p {
 	color: var(--blue);
 	font-family: var(--content-font-family);
