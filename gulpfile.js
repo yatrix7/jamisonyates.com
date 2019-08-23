@@ -4,32 +4,32 @@ const minifyCSS = require('gulp-csso')
 const autoprefixer = require('autoprefixer')
 const postcss = require('gulp-postcss')
 
-// deletes public folder
+// deletes dist folder
 async function clean() {
-	await del(['public'])
+	await del(['dist'])
 }
 
-// moves favicon into public folder root
+// moves favicon into dist folder root
 function favIcon() {
-	return src('favicon.ico').pipe(dest('public'))
+	return src('favicon.ico').pipe(dest('dist'))
 }
 
-// moves images into public folder
+// moves images into dist folder
 function images() {
-	return src('images/*.{svg,png}').pipe(dest('public/images'))
+	return src('images/*.{svg,png}').pipe(dest('dist/images'))
 }
 
-// minifies and moves css into public folder
+// minifies and moves css into dist folder
 function css() {
 	return src('src/styles/*.css')
 		.pipe(postcss([autoprefixer()]))
 		.pipe(minifyCSS())
-		.pipe(dest('public/styles'))
+		.pipe(dest('dist/styles'))
 }
 
-// moves html into public folder
+// moves html into dist folder
 function html() {
-	return src('src/*.html').pipe(dest('public'))
+	return src('src/*.html').pipe(dest('dist'))
 }
 
 exports.default = series(clean, parallel(css, favIcon, images, html))
