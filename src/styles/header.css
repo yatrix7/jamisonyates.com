@@ -26,10 +26,10 @@
 }
 
 .header--hidden {
-	visibility: hidden;
-	position: relative;
-	width: calc(100% + 1em);
 	left: -0.5em;
+	position: relative;
+	visibility: hidden;
+	width: calc(100% + 1em);
 }
 
 .header__title {
