@@ -4,8 +4,11 @@
 @import 'footer.css';
 
 .footer {
-	/* override the position as there's not enough content to push it to the bottom */
+	/* Override left and position as there's not enough 
+	   content to push it to the bottom */
+	left: 0;
 	position: absolute;
+	width: 100%;
 }
 
 .main-content p {
