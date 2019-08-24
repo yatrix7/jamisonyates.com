@@ -43,8 +43,6 @@
 	color: var(--purple);
 	grid-column: 1;
 	font-family: var(--main-font-family);
-	/* todo: see about a better margin fix that works across all the pages;
-		this is kinda hacky getting down to 3 decimal places */
 	margin: 0.5em 0 0;
 }
 

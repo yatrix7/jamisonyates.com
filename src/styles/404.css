@@ -1,0 +1,41 @@
+@import 'site.css';
+@import 'card.css';
+
+body {
+	display: flex;
+	justify-content: center;
+}
+
+.card {
+	margin: 0;
+}
+
+.not-found {
+	background: var(--background-color);
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	max-width: 700px;
+}
+
+.not-found__status-code {
+	color: var(--purple);
+	font-family: var(--main-font-family);
+	margin-bottom: 0;
+}
+
+.not-found__status-message {
+	color: var(--purple);
+	font-family: var(--main-font-family);
+	margin-top: 0.5em;
+}
+
+.not-found p {
+	color: var(--blue);
+	font-family: var(--content-font-family);
+	line-height: var(--content-line-height);
+}
+
+.not-found a {
+	color: var(--green);
+}
