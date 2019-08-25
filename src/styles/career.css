@@ -7,14 +7,6 @@
 	--content-line-height: 1.35;
 }
 
-.header {
-	/* Unset the bottom margin so content lines up with the other pages,
-	   which it currently does not due to the header being inside a grid.
-	   This results in both the page header's bottom margin and first section
-	   header's top margin stacking instead of overlapping */
-	margin-bottom: unset;
-}
-
 .card p {
 	color: var(--blue);
 	font-family: var(--content-font-family);
@@ -43,8 +35,6 @@
 	color: var(--purple);
 	grid-column: 1;
 	font-family: var(--main-font-family);
-	/* todo: see about a better margin fix that works across all the pages;
-		this is kinda hacky getting down to 3 decimal places */
 	margin: 0.5em 0 0;
 }
 

@@ -27,6 +27,7 @@
 
 .header--hidden {
 	left: -0.5em;
+	display: block;
 	position: relative;
 	visibility: hidden;
 	width: calc(100% + 1em);
