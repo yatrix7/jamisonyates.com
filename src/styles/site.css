@@ -29,13 +29,16 @@ body {
 
 body {
 	background: var(--background-color);
+	display: flex;
 	font-family: var(--fallback-font-family);
+	flex-direction: column;
 	margin: 0 0.5em;
 	padding: 0;
 }
 
 main {
-	margin: 0 auto 4em;
+	flex: 1 0 auto;
+	margin: 0 auto 2em;
 	max-width: 900px;
 }
 
