@@ -13,7 +13,7 @@
 	flex-wrap: wrap;
 	justify-content: space-between;
 	align-items: baseline;
-	margin-bottom: 0.5em;
+	margin-bottom: 0.25em;
 	z-index: 1;
 }
 
@@ -26,6 +26,7 @@
 }
 
 .header--hidden {
+	flex: 0;
 	left: -0.5em;
 	display: block;
 	position: relative;
@@ -39,9 +40,25 @@
 	margin: 0.5em 1.5em 0.5em 0.5em;
 }
 
+/* for whatever reason, the header content 
+   is sliding under the header on iOS Safari with flex */
+.header__title--hidden {
+	display: inline-block;
+	margin: 0;
+	width: 50%;
+}
+
 .header__nav {
 	text-align: right;
 	margin: 0 0.5em;
+}
+
+/* for whatever reason, the header content 
+    is sliding under the header on iOS Safari with flex */
+.header__nav--hidden {
+	display: inline-block;
+	margin: 0;
+	width: 50%;
 }
 
 .header__nav-menu {
