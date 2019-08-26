@@ -27,17 +27,17 @@
 
 .header--hidden {
 	flex: 0;
-	left: -0.5em;
+	left: calc(var(--body-side-margin) * -1);
 	display: block;
 	position: relative;
 	visibility: hidden;
-	width: calc(100% + 1em);
+	width: calc(100% + 0.7em);
 }
 
 .header__title {
 	color: var(--purple);
 	font-family: var(--main-font-family);
-	margin: 0.5em 1.5em 0.5em 0.5em;
+	margin: 0.5em 1.5em 0.5em var(--body-side-margin);
 }
 
 /* for whatever reason, the header content 
@@ -50,7 +50,7 @@
 
 .header__nav {
 	text-align: right;
-	margin: 0 0.5em;
+	margin: 0 var(--body-side-margin) 0 0;
 }
 
 /* for whatever reason, the header content 
@@ -69,7 +69,7 @@
 			1em - var(--nav-underline-margin-top) - var(--nav-underline-margin-height) -
 				var(--nav-underline-margin-bottom)
 		)
-		0.5em;
+		calc(var(--body-side-margin) * 2);
 	padding: 0;
 	display: flex;
 }
