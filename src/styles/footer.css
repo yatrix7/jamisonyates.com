@@ -4,9 +4,9 @@
 	align-items: center;
 	background: var(--background-color);
 	border-top: 1px var(--purple) solid;
-	left: -0.5em;
+	left: calc(var(--body-side-margin) * -1);
 	position: relative;
-	width: calc(100% + 1em);
+	width: calc(100% + var(--body-side-margin) * 2);
 }
 
 .footer__email {

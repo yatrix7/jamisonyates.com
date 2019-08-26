@@ -14,6 +14,7 @@
 		Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
 	--main-font-family: 'Comfortaa', cursive;
 	--content-font-family: 'Roboto Slab', serif;
+	--body-side-margin: 0.35em;
 }
 
 html {
@@ -32,7 +33,7 @@ body {
 	display: flex;
 	font-family: var(--fallback-font-family);
 	flex-direction: column;
-	margin: 0 0.5em;
+	margin: 0 var(--body-side-margin);
 	padding: 0;
 }
 
