@@ -1,315 +1,336 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<title>Jamison Yates</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
-		<meta
-			name="keywords"
-			content="jamison yates, web developer, software developer, blog, fullstack"
-		/>
-		<meta
-			name="Description"
-			content="Jamison Yates, fullstack web developer, personal & professional website, blog"
-		/>
-		<link href="./styles/blog.css" rel="stylesheet" />
-		<link
-			href="https://fonts.googleapis.com/css?family=Fira+Sans&display=swap"
-			rel="stylesheet"
-		/>
-	</head>
+    <head>
+        <title>Jamison Yates</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
+        <meta
+            name="keywords"
+            content="jamison yates, web developer, software developer, blog, fullstack"
+        />
+        <meta
+            name="Description"
+            content="Jamison Yates, fullstack web developer, personal & professional website, blog"
+        />
+        <link href="./styles/blog.css" rel="stylesheet" />
+        <link
+            href="https://fonts.googleapis.com/css?family=Fira+Sans&display=swap"
+            rel="stylesheet"
+        />
+    </head>
 
-	<body>
-		<header class="header header--fixed">
-			<h1 class="header__title">Jamison Yates</h1>
-			<nav class="header__nav" role="navigation" aria-label="Site navigation">
-				<ul class="header__nav-menu">
-					<li class="header__nav-menu-item">
-						<a class="header__nav-menu-item-link" href="index.html">Home</a>
-					</li>
-					<li class="header__nav-menu-item">
-						<a class="header__nav-menu-item-link" href="career.html">Career</a>
-					</li>
-					<li class="header__nav-menu-item">
-						<a class="header__nav-menu-item-link" href="about.html">About</a>
-					</li>
-					<li class="header__nav-menu-item">
-						<a class="header__nav-menu-item-link" href="blog.html">Blog</a>
-						<div class="header__nav-menu-item-underline" role="none"></div>
-					</li>
-				</ul>
-			</nav>
-		</header>
+    <body>
+        <header class="header header--fixed">
+            <h1 class="header__title">Jamison Yates</h1>
+            <nav class="header__nav" role="navigation" aria-label="Site navigation">
+                <ul class="header__nav-menu">
+                    <li class="header__nav-menu-item">
+                        <a class="header__nav-menu-item-link" href="index.html">Home</a>
+                    </li>
+                    <li class="header__nav-menu-item">
+                        <a class="header__nav-menu-item-link" href="career.html">Career</a>
+                    </li>
+                    <li class="header__nav-menu-item">
+                        <a class="header__nav-menu-item-link" href="about.html">About</a>
+                    </li>
+                    <li class="header__nav-menu-item">
+                        <a class="header__nav-menu-item-link" href="blog.html">Blog</a>
+                        <div class="header__nav-menu-item-underline" role="none"></div>
+                    </li>
+                </ul>
+            </nav>
+        </header>
 
-		<!--duplicate header to push the content down for a responsive fixed header (God, this is hacky)-->
-		<header class="header header--hidden">
-			<h1 class="header__title header__title--hidden">Jamison Yates</h1>
+        <!--duplicate header to push the content down for a responsive fixed header (God, this is hacky)-->
+        <header class="header header--hidden">
+            <h1 class="header__title header__title--hidden">Jamison Yates</h1>
 
-			<nav
-				class="header__nav header__nav--hidden"
-				role="navigation"
-				aria-label="Site navigation"
-			>
-				<ul class="header__nav-menu">
-					<li class="header__nav-menu-item">
-						<a class="header__nav-menu-item-link" href="index.html">Home</a>
-					</li>
-					<li class="header__nav-menu-item">
-						<a class="header__nav-menu-item-link" href="career.html">Career</a>
-					</li>
-					<li class="header__nav-menu-item">
-						<a class="header__nav-menu-item-link" href="about.html">About</a>
-					</li>
-					<li class="header__nav-menu-item">
-						<a class="header__nav-menu-item-link" href="blog.html">Blog</a>
-						<div class="header__nav-menu-item-underline" role="none"></div>
-					</li>
-				</ul>
-			</nav>
-		</header>
+            <nav
+                class="header__nav header__nav--hidden"
+                role="navigation"
+                aria-label="Site navigation"
+            >
+                <ul class="header__nav-menu">
+                    <li class="header__nav-menu-item">
+                        <a class="header__nav-menu-item-link" href="index.html">Home</a>
+                    </li>
+                    <li class="header__nav-menu-item">
+                        <a class="header__nav-menu-item-link" href="career.html">Career</a>
+                    </li>
+                    <li class="header__nav-menu-item">
+                        <a class="header__nav-menu-item-link" href="about.html">About</a>
+                    </li>
+                    <li class="header__nav-menu-item">
+                        <a class="header__nav-menu-item-link" href="blog.html">Blog</a>
+                        <div class="header__nav-menu-item-underline" role="none"></div>
+                    </li>
+                </ul>
+            </nav>
+        </header>
 
-		<main>
-			<div class="blog" role="none">
-				<h2 class="blog__header">Brain.Dump(&nbsp;)</h2>
-				<h3>
-					2019, Aug 18<sup>th</sup>: Whiteboard Coding is Bulls**t
-				</h3>
-				<article class="card">
-					<p>
-						The other day on LinkedIn, aka, Painfully Unfunny Memes Facebook, someone
-						posted a question asking what programming language the readers would
-						recommend for whiteboard sessions in interviews. My response: none, because
-						whiteboard coding is BS. Whoa! Loosen your grip on those pearls, folks.
-					</p>
-					<p>
-						Let's take a step back and review my storied history of whiteboard coding in
-						interviews. I jumped out of a window once, wet myself three other times and
-						have taken more hostages than I can count. Basically, I'm real bad at them.
-						Despite my less-than-stellar record coding with a marker in front of gawking
-						strangers, I've somehow carved out a long and fruitful career full of good
-						performance reviews, leadership positions and thousands of lines of code
-						delivered to production. Right now you must be thinking,
-						<span class="blog__quote">
-							That makes no sense! How can he code with a computer, but not a marker!
-							He must be a witch!!!
-						</span>
-						(If you haven't detected my sarcasm, I can't help you. Also, you're very
-						possibly an alien because I'm laying it on pretty thick.)
-					</p>
-					<p>
-						If you're a true believer in the whiteboard session, I'd like you to take a
-						step back and ask yourself why that is? Do your developers write all of
-						their code on a whiteboard? How does one deploy to production from a
-						whiteboard? I can never figure out how to get the Octopus tentacles to
-						interact with the world outside of the server.
-						<em>Do you use an actual octopus?!</em> Do your developers write all their
-						code with several strangers watching and talking to them the entire time? Do
-						your developers ever reverse a string with something other than .reverse()?
-						Ever? <em>Have they ever even needed to reverse a string?</em>
-						If you want to test candidates for skills unrelated to their position, why
-						not go all out and see if they can juggle or throw a curve ball?
-					</p>
-					<p>
-						The illogical nature of putting a developer completely out of their element
-						to gain employment is why I've never tested anyone that way. When I was
-						making hiring decisions, I gave candidates a laptop, instructions and left
-						them the hell alone. <em>You know, like the job they'd be doing.</em> I
-						checked in every so often to make sure they weren't stuck or already
-						finished and those were the only times I interrupted them. The candidates
-						had 90 minutes to complete the task and then we went over it. I'm not saying
-						my method was perfect or entirely my invention, but I strongly believe it
-						approximated the job more closely than the dog and pony show that is
-						whiteboarding. <em>More like waterboarding, amirite?</em>
-					</p>
-					<p>
-						You may be thinking,
-						<span class="blog__quote">
-							But what if I want to know if a candidate can code or think through a
-							problem without all of the tools!
-						</span>
-						Allow me to answer that question with another question:
-						<em>who the hell cares?</em> The need you have is for someone to get good
-						code to production so that your users are happy. If you want to know if a
-						developer can think through a problem, present them one and have them talk
-						through it. If you want to know if they can code, give them an assignment,
-						an editor and get out of their way,
-						<em>because that's the job.</em>
-					</p>
-					<p>
-						In the end, many developers just aren't good in front of people. Some of us
-						are, but only when we're rehearsed and prepared in advance and/or
-						comfortable with the audience. I'm not a natural presenter and a bit of an
-						introvert, so presenting complex things to people I don't know is a
-						challenge. I'll never be one of the developers who do the talk circuit and
-						I'm 100% cool with that.
-					</p>
-					<p>
-						My suggestion: don't view interviews as a way to weed people out. Interviews
-						are about finding a candidate that can do the job you're hiring them to.
-						Almost certainly that's not performing magic tricks for strangers. If you're
-						going to pay a candidate to code in front of a studio audience or write
-						algorithms on paper, by all means interview them with some college ruled
-						paper and a #2 pencil. If you're going to pay them to sit at a computer and
-						write software in the more traditional sense, interview them that way. I
-						really think you'll get a better interview out of it.
-					</p>
-					<p>Thanks for coming to my TED Talk.</p>
-				</article>
+        <main>
+            <div class="blog" role="none">
+                <h2 class="blog__header">Brain.Dump(&nbsp;)</h2>
+                <!-- todo: preview mode with expandible section -->
+                <h3>
+                    2020, Jul ???<sup>th</sup>: How to Fight a Losing Battle at Work
+                </h3>
+                <article class="card">
+                    <p>
+                        So we're clear, I don't mean with heel kicks and/or choke holds.
+                        <em>Violence at work is never acceptable</em>...unless someone eats your
+                        Sour Patch Kids, then that person and their whole family is in play.
+                        Juuuuuust kidding...
+                    </p>
+                    <p>
+                        What I'm talking about is wanting to do something, knowing it's the right
+                        thing to do for the team, but being unable to accomplish that goal due to
+                        circumstances outside of your control. <em>Disclaimer time!</em> This is not
+                        directed at any particular former employer, but is gleaned from an amalgam of
+                        my experiences working in professional environments of all kinds.
+                    </p>
+                    <p>todo: write the words</p>
+                </article>
 
-				<h3>
-					2019, Aug 7<sup>th</sup>: Thank God I Got Laid Off
-				</h3>
-				<article class="card">
-					<p>
-						I've been unemployed four times in my life, most recently due to a lay-off
-						on July 18<sup>th</sup>. It's been almost 8 years since the last time, so I
-						had forgotten what it is like to be without employment. I forgot how much it
-						stings to feel like a non-contributor. It reeeeeeeally sucks to sit at home
-						while the Mrs. is going off to work to put food on the table without being
-						able to help. It's downright comical how quickly shame and guilt set in,
-						despite knowing everything will work out in the end.
-					</p>
-					<p>
-						Let me be clear: I wasn't happy at the job I was laid off from and hadn't
-						been for a while. The company is moving away from being a development shop
-						to being a low-code, drag & drop shop with a little coding mixed in. For
-						someone that fancies himself a developer and creator, that was never going
-						to be intellectually or creatively satisfying.<br /><br />
-						<em>
-							First-world problem alert!!! Being able to concern myself with
-							satisfaction beyond a paycheck is a blessing I will never stop being
-							grateful for.
-						</em>
-						I am acutely aware of how fortunate I am.
-					</p>
-					<p>
-						Getting the happy-happy-joy-joys from the work I do is great and all, but of
-						more immediate concern was that I knew jobs were going to be lost due to the
-						department's new direction, mine almost certainly among them. The tea leaves
-						read something like this:<br /><br />
+                <h3>
+                    2019, Aug 18<sup>th</sup>: Whiteboard Coding is Bulls**t
+                </h3>
+                <article class="card">
+                    <p>
+                        The other day on LinkedIn, aka, Painfully Unfunny Memes Facebook, someone
+                        posted a question asking what programming language the readers would
+                        recommend for whiteboard sessions in interviews. My response: none, because
+                        whiteboard coding is BS. Whoa! Loosen your grip on those pearls, folks.
+                    </p>
+                    <p>
+                        Let's take a step back and review my storied history of whiteboard coding in
+                        interviews. I jumped out of a window once, wet myself three other times and
+                        have taken more hostages than I can count. Basically, I'm real bad at them.
+                        Despite my less-than-stellar record coding with a marker in front of gawking
+                        strangers, I've somehow carved out a long and fruitful career full of good
+                        performance reviews, leadership positions and thousands of lines of code
+                        delivered to production. Right now you must be thinking,
+                        <span class="blog__quote">
+                            That makes no sense! How can he code with a computer, but not a marker!
+                            He must be a witch!!!
+                        </span>
+                        (If you haven't detected my sarcasm, I can't help you. Also, you're very
+                        possibly an alien because I'm laying it on pretty thick.)
+                    </p>
+                    <p>
+                        If you're a true believer in the whiteboard session, I'd like you to take a
+                        step back and ask yourself why that is? Do your developers write all of
+                        their code on a whiteboard? How does one deploy to production from a
+                        whiteboard? I can never figure out how to get the Octopus tentacles to
+                        interact with the world outside of the server.
+                        <em>Do you use an actual octopus?!</em> Do your developers write all their
+                        code with several strangers watching and talking to them the entire time? Do
+                        your developers ever reverse a string with something other than .reverse()?
+                        Ever? <em>Have they ever even needed to reverse a string?</em>
+                        If you want to test candidates for skills unrelated to their position, why
+                        not go all out and see if they can juggle or throw a curve ball?
+                    </p>
+                    <p>
+                        The illogical nature of putting a developer completely out of their element
+                        to gain employment is why I've never tested anyone that way. When I was
+                        making hiring decisions, I gave candidates a laptop, instructions and left
+                        them the hell alone. <em>You know, like the job they'd be doing.</em> I
+                        checked in every so often to make sure they weren't stuck or already
+                        finished and those were the only times I interrupted them. The candidates
+                        had 90 minutes to complete the task and then we went over it. I'm not saying
+                        my method was perfect or entirely my invention, but I strongly believe it
+                        approximated the job more closely than the dog and pony show that is
+                        whiteboarding. <em>More like waterboarding, amirite?</em>
+                    </p>
+                    <p>
+                        You may be thinking,
+                        <span class="blog__quote">
+                            But what if I want to know if a candidate can code or think through a
+                            problem without all of the tools!
+                        </span>
+                        Allow me to answer that question with another question:
+                        <em>who the hell cares?</em> The need you have is for someone to get good
+                        code to production so that your users are happy. If you want to know if a
+                        developer can think through a problem, present them one and have them talk
+                        through it. If you want to know if they can code, give them an assignment,
+                        an editor and get out of their way,
+                        <em>because that's the job.</em>
+                    </p>
+                    <p>
+                        In the end, many developers just aren't good in front of people. Some of us
+                        are, but only when we're rehearsed and prepared in advance and/or
+                        comfortable with the audience. I'm not a natural presenter and a bit of an
+                        introvert, so presenting complex things to people I don't know is a
+                        challenge. I'll never be one of the developers who do the talk circuit and
+                        I'm 100% cool with that.
+                    </p>
+                    <p>
+                        My suggestion: don't view interviews as a way to weed people out. Interviews
+                        are about finding a candidate that can do the job you're hiring them to.
+                        Almost certainly that's not performing magic tricks for strangers. If you're
+                        going to pay a candidate to code in front of a studio audience or write
+                        algorithms on paper, by all means interview them with some college ruled
+                        paper and a #2 pencil. If you're going to pay them to sit at a computer and
+                        write software in the more traditional sense, interview them that way. I
+                        really think you'll get a better interview out of it.
+                    </p>
+                    <p>Thanks for coming to my TED Talk.</p>
+                </article>
 
-						<span class="blog__code-block" role="none">
-							<span class="blog__addend-top" role="none">not much coding</span
-							><span class="blog__plus-sign" role="none">+</span>
-							<span class="blog__addend-bottom" role="none"
-								>outsourcing big projects</span
-							>
-							<span class="blog__sum" role="none">
-								paying a senior dev doesn't make sense
-							</span></span
-						><br />
+                <h3>
+                    2019, Aug 7<sup>th</sup>: Thank God I Got Laid Off
+                </h3>
+                <article class="card">
+                    <p>
+                        I've been unemployed four times in my life, most recently due to a lay-off
+                        on July 18<sup>th</sup>. It's been almost 8 years since the last time, so I
+                        had forgotten what it is like to be without employment. I forgot how much it
+                        stings to feel like a non-contributor. It reeeeeeeally sucks to sit at home
+                        while the Mrs. is going off to work to put food on the table without being
+                        able to help. It's downright comical how quickly shame and guilt set in,
+                        despite knowing everything will work out in the end.
+                    </p>
+                    <p>
+                        Let me be clear: I wasn't happy at the job I was laid off from and hadn't
+                        been for a while. The company is moving away from being a development shop
+                        to being a low-code, drag & drop shop with a little coding mixed in. For
+                        someone that fancies himself a developer and creator, that was never going
+                        to be intellectually or creatively satisfying.<br /><br />
+                        <em>
+                            First-world problem alert!!! Being able to concern myself with
+                            satisfaction beyond a paycheck is a blessing I will never stop being
+                            grateful for.
+                        </em>
+                        I am acutely aware of how fortunate I am.
+                    </p>
+                    <p>
+                        Getting the happy-happy-joy-joys from the work I do is great and all, but of
+                        more immediate concern was that I knew jobs were going to be lost due to the
+                        department's new direction, mine almost certainly among them. The tea leaves
+                        read something like this:<br /><br />
 
-						For the record, I agree with the decision to lay me off; it was smart
-						business. Dumb business results in no business and that's not good for
-						anyone.
-					</p>
-					<p>
-						In the end, I was really unhappy at my job and that job was taken away from
-						me. Was it the plan I laid out? Nope. I wanted to find a new job, give my
-						boss (who is a wonderful man, btw) my notice and move on. Good plan, right?
-						I thought so. As is often the case, blessings don't necessarily land on the
-						big red X I've marked. For me, these life-altering changes tend to go this
-						way: right when I'm all ready for the zig, the zag sneaks up behind me and
-						roundhouses me in the face.
-					</p>
-					<p>
-						To make this already too-long story a little longer and put a bow on it: I
-						found a job that pays a little better, allows me to spend more time with my
-						family and <em>I get to code things</em>. You can kick me in the face
-						anytime, zag! Bring it!
-					</p>
-					<p>
-						Thank God I got laid off. I've really enjoyed spending 40hrs/week keeping my
-						couch from floating away, but now I'm ready to get back to work. August
-						12<sup>th</sup>, I get to do so!
-					</p>
-					<p>
-						<span class="blog__disclaimer" role="none">Disclaimer:</span> this post is
-						about <em>my mindset</em> during my unemployment. I'm not judging anyone
-						else in similar or worse situations. I was fortunate with the timing of my
-						lay-off, getting some severance and having a wife who makes enough money to
-						keep us afloat for a bit. For those that are in worse situations, I'm
-						rooting for you. Keep your head up!
-					</p>
-				</article>
+                        <span class="blog__code-block" role="none">
+                            <span class="blog__addend-top" role="none">not much coding</span
+                            ><span class="blog__plus-sign" role="none">+</span>
+                            <span class="blog__addend-bottom" role="none"
+                                >outsourcing big projects</span
+                            >
+                            <span class="blog__sum" role="none">
+                                paying a senior dev doesn't make sense
+                            </span></span
+                        ><br />
 
-				<h3>2019, Aug 6<sup>th</sup>: About this Site v1</h3>
-				<article class="card">
-					<p>
-						I've been wanting to do a personal website since the spring of 1903
-						(approx.) and <em>finally</em> took the time to do it. I wanted to keep the
-						site pretty simple out of the gate from a technical perspective
-						<em>because the site is very simple </em>. I'm a big fan of avoiding
-						complexity until things get complex and not before. As a result, v1 of this
-						site runs no JavaScript, has no CSS pre-compilers, no frameworks, etc. The
-						site is built with Html and vanilla CSS -- that's it. As this blog grows,
-						complexity will be needed to manage it and I'll start thinking about JS
-						frameworks, databases, etc. then. Until then, nah.
-					</p>
-					<p>
-						The process of developing this site was pretty vanilla as well. I designed
-						the site in <a href="https://www.sketch.com/">Sketch</a>, mostly because I
-						wanted the reps in Sketch to get better acquainted with it. All of the SVG's
-						were also made in Sketch. For this site, mocking the entire thing was
-						probably a little overkill, but it was fun. I used
-						<a href="https://zeplin.io/">Zeplin</a> to share my Sketch mock-ups with
-						some friends to get early feedback. For development, I used
-						<a href="https://code.visualstudio.com/">Visual Studio Code</a> and a
-						handful of useful extensions (<em
-							><a
-								href="https://marketplace.visualstudio.com/items?itemName=yuichinukiyama.vscode-preview-server"
-								>Preview on Web Server</a
-							>
-							was an absolute must!</em
-						>). That's honestly all there was to it -- simple site, simple stack, good
-						tooling.
-					</p>
-					<p>
-						PS - if you're wondering about the color scheme, I was listening to the
-						Tron: Legacy soundtrack a lot while I was designing it. Coincidence?
-						Mehbe...
-					</p>
-				</article>
-			</div>
-		</main>
-		<footer class="footer">
-			<span class="footer__email"
-				>&rarr;&nbsp;<a
-					href="mailto:admin@jamisonyates.com"
-					class="footer__email-link"
-					aria-label="author's email address"
-					>Click here to email me</a
-				>&nbsp;&larr;
-			</span>
-			<div class="footer__image-links" role="none">
-				<a
-					href="https://www.linkedin.com/in/jamison-yates-09225530"
-					target="_blank"
-					rel="noreferrer noopener"
-					class="footer__link"
-					aria-label="link to site author's LinkedIn page"
-					><img
-						class="footer__image"
-						alt="LinkedIn logo"
-						src="../images/linkedin-logo.png"
-				/></a>
-				<a
-					href="https://github.com/yatrix7"
-					target="_blank"
-					rel="noreferrer noopener"
-					class="footer__link"
-					aria-label="link to site author's GitHub page"
-					><img class="footer__image" alt="GitHub Octocat" src="../images/octocat.svg"
-				/></a>
-				<a
-					href="https://www.instagram.com/yatrix7"
-					target="_blank"
-					rel="noreferrer noopener"
-					class="footer__link"
-					aria-label="link to site author's Instagram page"
-					><img class="footer__image" alt="Instagram logo" src="../images/ig-logo.png"
-				/></a>
-			</div>
-		</footer>
-	</body>
+                        For the record, I agree with the decision to lay me off; it was smart
+                        business. Dumb business results in no business and that's not good for
+                        anyone.
+                    </p>
+                    <p>
+                        In the end, I was really unhappy at my job and that job was taken away from
+                        me. Was it the plan I laid out? Nope. I wanted to find a new job, give my
+                        boss (who is a wonderful man, btw) my notice and move on. Good plan, right?
+                        I thought so. As is often the case, blessings don't necessarily land on the
+                        big red X I've marked. For me, these life-altering changes tend to go this
+                        way: right when I'm all ready for the zig, the zag sneaks up behind me and
+                        roundhouses me in the face.
+                    </p>
+                    <p>
+                        To make this already too-long story a little longer and put a bow on it: I
+                        found a job that pays a little better, allows me to spend more time with my
+                        family and <em>I get to code things</em>. You can kick me in the face
+                        anytime, zag! Bring it!
+                    </p>
+                    <p>
+                        Thank God I got laid off. I've really enjoyed spending 40hrs/week keeping my
+                        couch from floating away, but now I'm ready to get back to work. August
+                        12<sup>th</sup>, I get to do so!
+                    </p>
+                    <p>
+                        <span class="blog__disclaimer" role="none">Disclaimer:</span> this post is
+                        about <em>my mindset</em> during my unemployment. I'm not judging anyone
+                        else in similar or worse situations. I was fortunate with the timing of my
+                        lay-off, getting some severance and having a wife who makes enough money to
+                        keep us afloat for a bit. For those that are in worse situations, I'm
+                        rooting for you. Keep your head up!
+                    </p>
+                </article>
+
+                <h3>2019, Aug 6<sup>th</sup>: About this Site v1</h3>
+                <article class="card">
+                    <p>
+                        I've been wanting to do a personal website since the spring of 1903
+                        (approx.) and <em>finally</em> took the time to do it. I wanted to keep the
+                        site pretty simple out of the gate from a technical perspective
+                        <em>because the site is very simple </em>. I'm a big fan of avoiding
+                        complexity until things get complex and not before. As a result, v1 of this
+                        site runs no JavaScript, has no CSS pre-compilers, no frameworks, etc. The
+                        site is built with Html and vanilla CSS -- that's it. As this blog grows,
+                        complexity will be needed to manage it and I'll start thinking about JS
+                        frameworks, databases, etc. then. Until then, nah.
+                    </p>
+                    <p>
+                        The process of developing this site was pretty vanilla as well. I designed
+                        the site in <a href="https://www.sketch.com/">Sketch</a>, mostly because I
+                        wanted the reps in Sketch to get better acquainted with it. All of the SVG's
+                        were also made in Sketch. For this site, mocking the entire thing was
+                        probably a little overkill, but it was fun. I used
+                        <a href="https://zeplin.io/">Zeplin</a> to share my Sketch mock-ups with
+                        some friends to get early feedback. For development, I used
+                        <a href="https://code.visualstudio.com/">Visual Studio Code</a> and a
+                        handful of useful extensions (<em
+                            ><a
+                                href="https://marketplace.visualstudio.com/items?itemName=yuichinukiyama.vscode-preview-server"
+                                >Preview on Web Server</a
+                            >
+                            was an absolute must!</em
+                        >). That's honestly all there was to it -- simple site, simple stack, good
+                        tooling.
+                    </p>
+                    <p>
+                        PS - if you're wondering about the color scheme, I was listening to the
+                        Tron: Legacy soundtrack a lot while I was designing it. Coincidence?
+                        Mehbe...
+                    </p>
+                </article>
+            </div>
+        </main>
+        <footer class="footer">
+            <span class="footer__email"
+                >&rarr;&nbsp;<a
+                    href="mailto:admin@jamisonyates.com"
+                    class="footer__email-link"
+                    aria-label="author's email address"
+                    >Click here to email me</a
+                >&nbsp;&larr;
+            </span>
+            <div class="footer__image-links" role="none">
+                <a
+                    href="https://www.linkedin.com/in/jamison-yates-09225530"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    class="footer__link"
+                    aria-label="link to site author's LinkedIn page"
+                    ><img
+                        class="footer__image"
+                        alt="LinkedIn logo"
+                        src="../images/linkedin-logo.png"
+                /></a>
+                <a
+                    href="https://github.com/yatrix7"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    class="footer__link"
+                    aria-label="link to site author's GitHub page"
+                    ><img class="footer__image" alt="GitHub Octocat" src="../images/octocat.svg"
+                /></a>
+                <a
+                    href="https://www.instagram.com/yatrix7"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    class="footer__link"
+                    aria-label="link to site author's Instagram page"
+                    ><img class="footer__image" alt="Instagram logo" src="../images/ig-logo.png"
+                /></a>
+            </div>
+        </footer>
+    </body>
 </html>
