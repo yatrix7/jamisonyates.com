@@ -58,11 +58,6 @@
     padding-bottom: 0.25em;
 }
 
-.blog__tough-conversation {
-    display: block;
-    margin-left: 0.5em;
-}
-
 .blog__sum {
     grid-column: 2;
     grid-row: 3;
