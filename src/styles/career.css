@@ -79,6 +79,13 @@
 	line-height: var(--content-line-height);
 }
 
+.career__note {
+	color: var(--blue);
+	font-family: var(--content-font-family);
+	margin-top: 1em;
+	line-height: var(--content-line-height);
+}
+
 .career__work-history-header {
 	color: var(--purple);
 	font-family: var(--main-font-family);
