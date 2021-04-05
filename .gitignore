@@ -4,5 +4,6 @@
 !.vscode/launch.json
 !.vscode/extensions.json
 
-/node_modules
-/dist
+node_modules/
+.cache/
+public
