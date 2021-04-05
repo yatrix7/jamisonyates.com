@@ -1,0 +1,1 @@
+@import 'site.css';@import 'card.css';@import 'header.css';@import 'footer.css';.main-content p{color:var(--blue);font-family:var(--content-font-family);line-height:1.5}.welcome-note{margin:0 .25em}.welcome-note__header{color:var(--purple);font-family:var(--main-font-family);margin:.5em 0}
