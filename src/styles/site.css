@@ -2,66 +2,68 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
 
 :root {
-	--purple: #bf55ec;
+  /* --purple: #bf55ec;
 	--green: #00d400;
 	--blue: #00ffff;
-	--background-color: #0a0a0a;
-	/* 
+	--background-color: #0a0a0a; */
+  /* 
 		System Fonts as used by Medium and WordPress 
 	   	via https://css-tricks.com/snippets/css/system-font-stack 
 	*/
-	--fallback-font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans,
-		Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
-	--main-font-family: 'Comfortaa', cursive;
-	--content-font-family: 'Roboto Slab', serif;
-	--body-side-margin: 0.35em;
+  --fallback-font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu,
+    Cantarell, 'Helvetica Neue', sans-serif;
+  --main-font-family: 'Comfortaa', cursive;
+  --content-font-family: 'Roboto Slab', serif;
+  --body-side-margin: 0.35em;
 }
 
 html {
-	/* found here: https://css-tricks.com/books/volume-i/scale-typography-screen-size/ */
-	font-size: calc(18px + (22 - 18) * ((100vw - 375px) / (1440 - 375)));
-	margin: 0;
+  /* found here: https://css-tricks.com/books/volume-i/scale-typography-screen-size/ */
+  font-size: calc(18px + (22 - 18) * ((100vw - 375px) / (1440 - 375)));
+  margin: 0;
 }
 
 html,
 body {
-	height: 100%;
+  height: 100%;
 }
 
 body {
-	background: var(--background-color);
-	display: flex;
-	font-family: var(--fallback-font-family);
-	flex-direction: column;
-	margin: 0 var(--body-side-margin);
-	padding: 0;
+  /* background: var(--background-color); */
+  display: flex;
+  font-family: var(--fallback-font-family);
+  flex-direction: column;
+  margin: 0 var(--body-side-margin);
+  padding: 0;
 }
 
 main {
-	flex: 1 0 auto;
-	margin: 0 auto 2em;
-	max-width: 900px;
+  flex: 1 0 auto;
+  flex-direction: column;
+  margin: 0 auto 2em;
+  max-width: 900px;
+  text-align: justify;
 }
 
 h1 {
-	font-size: 2em;
+  font-size: 2em;
 }
 
-h2 {
-	font-size: 1.5em;
-}
+/* h2 {
+  font-size: 1.5em;
+} */
 
-h3 {
-	color: var(--green);
-	font-family: var(--main-font-family);
-	font-size: 1.25em;
-}
+/* h3 {
+  color: var(--green);
+  font-family: var(--main-font-family);
+  font-size: 1.25em;
+} */
 
-h4 {
-	font-size: 1.1em;
+/* h4 {
+  font-size: 1.1em;
 }
 
 h5,
 h6 {
-	font-size: 1em;
-}
+  font-size: 1em;
+} */

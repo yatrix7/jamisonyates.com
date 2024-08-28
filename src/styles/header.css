@@ -1,101 +1,101 @@
 @import 'site.css';
-:root {
-	--nav-underline-begin-width: 0;
-	--nav-underline-margin-height: 0.075em;
-	--nav-underline-margin-bottom: 0.125em;
-	--nav-underline-margin-top: 0.125em;
-}
-
+/* :root {
+  --nav-underline-begin-width: 0;
+  --nav-underline-margin-height: 0.075em;
+  --nav-underline-margin-bottom: 0.125em;
+  --nav-underline-margin-top: 0.125em;
+} */
+/* 
 .header {
-	border-bottom: var(--purple) 1px solid;
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	align-items: baseline;
-	margin-bottom: 0.25em;
-	z-index: 1;
-}
-
+  border-bottom: var(--purple) 1px solid;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 0.25em;
+  z-index: 1;
+} */
+/* 
 .header--fixed {
-	background: var(--background-color);
-	position: fixed;
-	width: 100%;
-	top: 0;
-	left: 0;
-}
+  background: var(--background-color);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+} */
 
-.header--hidden {
-	flex: 0;
-	left: calc(var(--body-side-margin) * -1);
-	display: block;
-	position: relative;
-	visibility: hidden;
-	width: calc(100% + 0.7em);
-}
+/* .header--hidden {
+  flex: 0;
+  left: calc(var(--body-side-margin) * -1);
+  display: block;
+  position: relative;
+  visibility: hidden;
+  width: calc(100% + 0.7em);
+} */
 
 .header__title {
-	color: var(--purple);
-	font-family: var(--main-font-family);
-	margin: 0.5em 1.5em 0.5em var(--body-side-margin);
+  /* color: var(--purple); */
+  font-family: var(--main-font-family);
+  /* margin: 0.5em 1.5em 0.5em var(--body-side-margin); */
 }
 
 /* for whatever reason, the header content 
    is sliding under the header on iOS Safari with flex */
-.header__title--hidden {
-	display: inline-block;
-	margin: 0;
-	width: 50%;
+/* .header__title--hidden {
+  display: inline-block;
+  margin: 0;
+  width: 50%;
 }
 
 .header__nav {
-	text-align: right;
-	margin: 0 var(--body-side-margin) 0 0;
-}
+  text-align: right;
+  margin: 0 var(--body-side-margin) 0 0;
+} */
 
 /* for whatever reason, the header content 
     is sliding under the header on iOS Safari with flex */
-.header__nav--hidden {
-	display: inline-block;
-	margin: 0;
-	width: 50%;
+/* .header__nav--hidden {
+  display: inline-block;
+  margin: 0;
+  width: 50%;
 }
 
 .header__nav-menu {
-	list-style: none;
-	list-style-type: none;
-	margin: 0 0
-		calc(
-			1em - var(--nav-underline-margin-top) - var(--nav-underline-margin-height) -
-				var(--nav-underline-margin-bottom)
-		)
-		calc(var(--body-side-margin) * 2);
-	padding: 0;
-	display: flex;
+  list-style: none;
+  list-style-type: none;
+  margin: 0 0
+    calc(
+      1em - var(--nav-underline-margin-top) - var(--nav-underline-margin-height) -
+        var(--nav-underline-margin-bottom)
+    )
+    calc(var(--body-side-margin) * 2);
+  padding: 0;
+  display: flex;
 }
 
 .header__nav-menu-item {
-	display: inline-block;
-	margin-right: 1em;
+  display: inline-block;
+  margin-right: 1em;
 }
 
 .header__nav-menu-item-link {
-	color: var(--green);
-	font-family: var(--main-font-family);
-	text-decoration: none;
+  color: var(--green);
+  font-family: var(--main-font-family);
+  text-decoration: none;
 }
 
 @keyframes underline-nav {
-	0% {
-		width: 0%;
-	}
+  0% {
+    width: 0%;
+  }
 }
 
 .header__nav-menu-item-underline {
-	animation: 0.3s ease-out underline-nav;
-	background: var(--green);
-	height: var(--nav-underline-margin-height);
-	margin: var(--nav-underline-margin-bottom) auto var(--nav-underline-margin-bottom);
-	position: relative;
-	width: 100%;
-}
+  animation: 0.3s ease-out underline-nav;
+  background: var(--green);
+  height: var(--nav-underline-margin-height);
+  margin: var(--nav-underline-margin-bottom) auto var(--nav-underline-margin-bottom);
+  position: relative;
+  width: 100%;
+} */
