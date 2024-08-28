@@ -9,19 +9,19 @@ async function clean() {
   await deleteAsync(['dist'])
 }
 
-// moves favicon into dist folder root
-function favIcon() {
-  return src('favicon.ico').pipe(dest('dist'))
-}
+// // moves favicon into dist folder root
+// function favIcon() {
+//   return src('favicon.ico').pipe(dest('dist'))
+// }
 
-// moves images into dist folder
-function images() {
-  return src('images/*.{svg,png}').pipe(dest('dist/images'))
-}
+// // moves images into dist folder
+// function images() {
+//   return src('images/*.{svg,png}').pipe(dest('dist/images'))
+// }
 
 // minifies and moves css into dist folder
 function css() {
-  return src('src/styles/index.css')
+  return src('src/styles/(site|header|index).css')
     .pipe(postcss([autoprefixer()]))
     .pipe(minifyCSS())
     .pipe(dest('dist/styles'))
