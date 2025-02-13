@@ -42,7 +42,7 @@ main {
   flex-direction: column;
   margin: 0 auto 2em;
   max-width: 900px;
-  text-align: justify;
+  text-align: left;
 }
 
 h1 {
