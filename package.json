@@ -2,16 +2,8 @@
   "name": "jamisonyates.com",
   "version": "1.0.0",
   "description": "personal/professional website",
-  "main": "index.js",
-  "devDependencies": {
-    "del": "^7.1.0",
-    "gulp": "^5.0.0",
-    "gulp-autoprefixer": "^9.0.0",
-    "gulp-csso": "^4.0.1",
-    "gulp-postcss": "^10.0.0"
-  },
+  "devDependencies": {},
   "scripts": {
-    "build": "gulp",
     "clean": "rm -rf dist"
   },
   "repository": {
